@@ -1,0 +1,22 @@
+<button type="button" class="btn btn-default" ng-click="backTolocation()">Go Back</button><br/><br/>
+<div>
+  <p>list of flights</p>
+  <download-flight-list></download-flight-list>
+<!--
+  <button download-flight-list="" ng-click="flightListDownload()">flight list</button>-->
+ <!-- <button type="button" class="btn btn-default" ng-click="flightInfo()">Go Back</button><br/><br/>-->
+  <table style="max-width: 100%;margin-left: auto;max-height: 100%;margin-right: auto;border: 1px solid black;">
+    <tr style="border: 1px solid black;">
+      <th style="border: 1px solid black;">Airport Name</th>
+      <th style="border: 1px solid black;">city code</th>
+      <th style="border: 1px solid black;">Airport_code</th>
+    </tr>
+    <tr style="border: 1px solid black;" ng-repeat="airport in airportName">
+      <td style="border: 1px solid black;">{{airport.name}}</td>
+      <td style="border: 1px solid black;">{{airport.city}}</td>
+      <td style="border: 1px solid black;">{{airport.code}}</td>
+    </tr>
+  </table>
+
+
+</div>
