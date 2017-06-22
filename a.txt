@@ -1,0 +1,56 @@
+[4mRunning "clean:server" (clean) task[24m
+[32m>> [39m1 path cleaned.
+
+[4mRunning "wiredep:app" (wiredep) task[24m
+
+[4mRunning "wiredep:test" (wiredep) task[24m
+
+[4mRunning "concurrent:test" (concurrent) task[24m
+    
+[4mRunning "copy:styles" (copy) task[24m
+Copied 1 file
+
+[32mDone, without errors.[39m
+
+
+Execution Time (2016-04-22 06:02:18 UTC)
+loading tasks               168ms  ████████████████████████████ 82%
+loading grunt-contrib-copy   17ms  ███ 8%
+copy:styles                  18ms  ███ 9%
+Total 204ms
+
+[4mRunning "postcss:server" (postcss) task[24m
+[32m>> [39m1 processed stylesheet created.
+
+[4mRunning "postcss:dist" (postcss) task[24m
+[32m>> [39m1 processed stylesheet created.
+
+[4mRunning "connect:test" (connect) task[24m
+Started connect web server on http://localhost:9001
+
+[4mRunning "karma:unit" (karma) task[24m
+[33m22 04 2016 11:32:20.256:WARN [watcher]: [39mPattern "D:/angularAssignment1/test/mock/**/*.js" does not match any file.
+[32m22 04 2016 11:32:20.319:INFO [karma]: [39mKarma v0.13.22 server started at http://localhost:8089/
+[32m22 04 2016 11:32:20.325:INFO [launcher]: [39mStarting browser PhantomJS
+[32m22 04 2016 11:32:21.870:INFO [PhantomJS 2.1.1 (Windows 7 0.0.0)]: [39mConnected on socket /#QgOmC6ASNdXhwbXvAAAA with id 99740381
+PhantomJS 2.1.1 (Windows 7 0.0.0): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KLOG: 'hii in test case'
+PhantomJS 2.1.1 (Windows 7 0.0.0): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KPhantomJS 2.1.1 (Windows 7 0.0.0): Executed 1 of 1 SUCCESS (0 secs / 0.024 secs)
+[1A[2KPhantomJS 2.1.1 (Windows 7 0.0.0): Executed 1 of 1 SUCCESS (0.003 secs / 0.024 secs)
+
+Done, without errors.
+
+
+Execution Time (2016-04-22 06:02:17 UTC)
+loading tasks                  168ms  ██ 4%
+wiredep:app                    171ms  ██ 4%
+concurrent:test                624ms  █████ 14%
+loading grunt-postcss           58ms  █ 1%
+postcss:server                 132ms  █ 3%
+loading grunt-contrib-connect   85ms  █ 2%
+connect:test                   430ms  ███ 9%
+loading grunt-karma            661ms  █████ 14%
+karma:unit                      2.2s  ███████████████ 48%
+Total 4.6s
+

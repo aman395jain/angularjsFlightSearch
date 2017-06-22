@@ -1,0 +1,3273 @@
+{
+  "kind": "qpxExpress#tripsSearch",
+  "trips": {
+    "kind": "qpxexpress#tripOptions",
+    "requestId": "g41qFuRxO9ZNDaLkv0O5xn",
+    "data": {
+      "kind": "qpxexpress#data",
+      "airport": [
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "BOS",
+          "city": "BOS",
+          "name": "Boston Logan International"
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "DTW",
+          "city": "DTT",
+          "name": "Detroit Wayne County"
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "EWR",
+          "city": "EWR",
+          "name": "Newark Liberty International"
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "IAD",
+          "city": "WAS",
+          "name": "Washington Dulles International"
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "IND",
+          "city": "IND",
+          "name": "Indianapolis International"
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "LHR",
+          "city": "LON",
+          "name": "London Heathrow"
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "ORD",
+          "city": "CHI",
+          "name": "Chicago O'Hare"
+        },
+        {
+          "kind": "qpxexpress#airportData",
+          "code": "YYZ",
+          "city": "YTO",
+          "name": "Toronto Lester B Pearson"
+        }
+      ],
+      "city": [
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "BOS",
+          "name": "Boston"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "CHI",
+          "name": "Chicago"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "DTT",
+          "name": "Detroit"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "EWR",
+          "name": "Newark"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "IND",
+          "name": "Indianapolis"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "LON",
+          "name": "London"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "WAS",
+          "name": "Washington"
+        },
+        {
+          "kind": "qpxexpress#cityData",
+          "code": "YTO",
+          "name": "Toronto"
+        }
+      ],
+      "aircraft": [
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "333",
+          "name": "Airbus A330"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "717",
+          "name": "Boeing 717"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "752",
+          "name": "Boeing 757"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "763",
+          "name": "Boeing 767"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "764",
+          "name": "Boeing 767"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "777",
+          "name": "Boeing 777"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "789",
+          "name": "Boeing 787"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "CR7",
+          "name": "Canadair RJ 700"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "CR9",
+          "name": "Canadair RJ 900"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "CRJ",
+          "name": "Canadair Reg. Jet"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "E70",
+          "name": "Embraer RJ-170"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "EMJ",
+          "name": "Embraer RJ-170/190"
+        },
+        {
+          "kind": "qpxexpress#aircraftData",
+          "code": "ERJ",
+          "name": "Embraer ERJ-135/145"
+        }
+      ],
+      "tax": [
+        {
+          "kind": "qpxexpress#taxData",
+          "id": "RC",
+          "name": "Canadian Harmonized Sales Tax (ON)"
+        },
+        {
+          "kind": "qpxexpress#taxData",
+          "id": "YQ_F",
+          "name": "VS YQ surcharge"
+        },
+        {
+          "kind": "qpxexpress#taxData",
+          "id": "AY_001",
+          "name": "US September 11th Security Fee"
+        },
+        {
+          "kind": "qpxexpress#taxData",
+          "id": "US_002",
+          "name": "US International Departure Tax"
+        },
+        {
+          "kind": "qpxexpress#taxData",
+          "id": "YR_I",
+          "name": "KL YR surcharge"
+        },
+        {
+          "kind": "qpxexpress#taxData",
+          "id": "YQ_I",
+          "name": "AC YQ surcharge"
+        },
+        {
+          "kind": "qpxexpress#taxData",
+          "id": "SQ",
+          "name": "Toronto Airport Improvement Fee"
+        },
+        {
+          "kind": "qpxexpress#taxData",
+          "id": "XF",
+          "name": "US Passenger Facility Charge"
+        }
+      ],
+      "carrier": [
+        {
+          "kind": "qpxexpress#carrierData",
+          "code": "AC",
+          "name": "Air Canada"
+        },
+        {
+          "kind": "qpxexpress#carrierData",
+          "code": "AY",
+          "name": "Finnair Oyj"
+        },
+        {
+          "kind": "qpxexpress#carrierData",
+          "code": "BA",
+          "name": "British Airways p.l.c."
+        },
+        {
+          "kind": "qpxexpress#carrierData",
+          "code": "KL",
+          "name": "KLM Royal Dutch Airlines"
+        },
+        {
+          "kind": "qpxexpress#carrierData",
+          "code": "LH",
+          "name": "Deutsche Lufthansa AG"
+        },
+        {
+          "kind": "qpxexpress#carrierData",
+          "code": "OS",
+          "name": "Austrian"
+        },
+        {
+          "kind": "qpxexpress#carrierData",
+          "code": "UA",
+          "name": "United Airlines, Inc."
+        },
+        {
+          "kind": "qpxexpress#carrierData",
+          "code": "VS",
+          "name": "Virgin Atlantic Airways Limited"
+        }
+      ]
+    },
+    "tripOption": [
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1395.40",
+        "id": "5MdBBg3sNzVN4DwoQSRtv300J",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 635,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 89,
+                "flight": {
+                  "carrier": "AC",
+                  "number": "7312"
+                },
+                "id": "Gn1Ws90VHYxCR05q",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LQvNSvmVXHh9A+-Y",
+                    "aircraft": "CRJ",
+                    "arrivalTime": "2016-04-20T16:24-04:00",
+                    "departureTime": "2016-04-20T14:55-04:00",
+                    "origin": "IND",
+                    "destination": "YYZ",
+                    "destinationTerminal": "1",
+                    "duration": 89,
+                    "operatingDisclosure": "OPERATED BY AIR CANADA EXPRESS - AIR GEORGIAN",
+                    "mileage": 438,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 131
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 415,
+                "flight": {
+                  "carrier": "AC",
+                  "number": "856"
+                },
+                "id": "GjCCwZhWI8m-YZ8x",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LmJ0J0qmvSA8oI6+",
+                    "aircraft": "789",
+                    "arrivalTime": "2016-04-21T06:30+01:00",
+                    "departureTime": "2016-04-20T18:35-04:00",
+                    "origin": "YYZ",
+                    "destination": "LHR",
+                    "originTerminal": "1",
+                    "destinationTerminal": "2",
+                    "duration": 415,
+                    "mileage": 3544,
+                    "meal": "Continental Breakfast",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "A5xQEPjTh+paqf7VqDU6w4X3HMrZ048hQ7a3kmIc",
+                "carrier": "AC",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "H4E"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "A5xQEPjTh+paqf7VqDU6w4X3HMrZ048hQ7a3kmIc",
+                "segmentId": "Gn1Ws90VHYxCR05q"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "A5xQEPjTh+paqf7VqDU6w4X3HMrZ048hQ7a3kmIc",
+                "segmentId": "GjCCwZhWI8m-YZ8x"
+              }
+            ],
+            "baseFareTotal": "USD1135.00",
+            "saleFareTotal": "USD1135.00",
+            "saleTaxTotal": "USD260.40",
+            "saleTotal": "USD1395.40",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "SQ",
+                "chargeType": "GOVERNMENT",
+                "code": "SQ",
+                "country": "CA",
+                "salePrice": "USD3.10"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "RC",
+                "chargeType": "GOVERNMENT",
+                "code": "RC",
+                "country": "CA",
+                "salePrice": "USD0.40"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD4.50"
+              }
+            ],
+            "fareCalculation": "IND AC X/YTO AC LON 1135.00H4E NUC 1135.00 END ROE 1.00 FARE USD 1135.00 XT 17.80US 5.60AY 0.40RC 3.10SQ 229.00YQ 4.50XF IND4.50",
+            "latestTicketingTime": "2016-04-08T01:19-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1395.40",
+        "id": "5MdBBg3sNzVN4DwoQSRtv3001",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 600,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 89,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "8608"
+                },
+                "id": "GS55bj9-2JmKYbFB",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "Lkkc2JlYspknH9ec",
+                    "aircraft": "CRJ",
+                    "arrivalTime": "2016-04-20T07:29-04:00",
+                    "departureTime": "2016-04-20T06:00-04:00",
+                    "origin": "IND",
+                    "destination": "YYZ",
+                    "destinationTerminal": "1",
+                    "duration": 89,
+                    "operatingDisclosure": "OPERATED BY AIR CANADA EXPRESS - AIR GEORGIAN",
+                    "mileage": 438,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 86
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 425,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "8306"
+                },
+                "id": "GHFiBM1FBYlyt5YN",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LHGtir8+wN4ni91F",
+                    "aircraft": "763",
+                    "arrivalTime": "2016-04-20T21:00+01:00",
+                    "departureTime": "2016-04-20T08:55-04:00",
+                    "origin": "YYZ",
+                    "destination": "LHR",
+                    "originTerminal": "1",
+                    "destinationTerminal": "2",
+                    "duration": 425,
+                    "operatingDisclosure": "OPERATED BY AIR CANADA",
+                    "mileage": 3544,
+                    "meal": "Breakfast",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "carrier": "UA",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "H4E"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "segmentId": "GHFiBM1FBYlyt5YN"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "segmentId": "GS55bj9-2JmKYbFB"
+              }
+            ],
+            "baseFareTotal": "USD1135.00",
+            "saleFareTotal": "USD1135.00",
+            "saleTaxTotal": "USD260.40",
+            "saleTotal": "USD1395.40",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "SQ",
+                "chargeType": "GOVERNMENT",
+                "code": "SQ",
+                "country": "CA",
+                "salePrice": "USD3.10"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "RC",
+                "chargeType": "GOVERNMENT",
+                "code": "RC",
+                "country": "CA",
+                "salePrice": "USD0.40"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD4.50"
+              }
+            ],
+            "fareCalculation": "IND UA X/YTO UA LON 1135.00H4E NUC 1135.00 END ROE 1.00 FARE USD 1135.00 XT 17.80US 5.60AY 0.40RC 3.10SQ 229.00YQ 4.50XF IND4.50",
+            "latestTicketingTime": "2016-04-08T01:19-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1395.40",
+        "id": "5MdBBg3sNzVN4DwoQSRtv3002",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 600,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 89,
+                "flight": {
+                  "carrier": "AC",
+                  "number": "7310"
+                },
+                "id": "GsWA7NMINIKR+WvC",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "L1K70GlT7j6UKOfB",
+                    "aircraft": "CRJ",
+                    "arrivalTime": "2016-04-20T07:29-04:00",
+                    "departureTime": "2016-04-20T06:00-04:00",
+                    "origin": "IND",
+                    "destination": "YYZ",
+                    "destinationTerminal": "1",
+                    "duration": 89,
+                    "operatingDisclosure": "OPERATED BY AIR CANADA EXPRESS - AIR GEORGIAN",
+                    "mileage": 438,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 86
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 425,
+                "flight": {
+                  "carrier": "AC",
+                  "number": "868"
+                },
+                "id": "GBrfjye5ftL-zsXt",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LiyescSJTNA6lRrF",
+                    "aircraft": "763",
+                    "arrivalTime": "2016-04-20T21:00+01:00",
+                    "departureTime": "2016-04-20T08:55-04:00",
+                    "origin": "YYZ",
+                    "destination": "LHR",
+                    "originTerminal": "1",
+                    "destinationTerminal": "2",
+                    "duration": 425,
+                    "mileage": 3544,
+                    "meal": "Breakfast",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "A5xQEPjTh+paqf7VqDU6w4X3HMrZ048hQ7a3kmIc",
+                "carrier": "AC",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "H4E"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "A5xQEPjTh+paqf7VqDU6w4X3HMrZ048hQ7a3kmIc",
+                "segmentId": "GsWA7NMINIKR+WvC"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "A5xQEPjTh+paqf7VqDU6w4X3HMrZ048hQ7a3kmIc",
+                "segmentId": "GBrfjye5ftL-zsXt"
+              }
+            ],
+            "baseFareTotal": "USD1135.00",
+            "saleFareTotal": "USD1135.00",
+            "saleTaxTotal": "USD260.40",
+            "saleTotal": "USD1395.40",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "SQ",
+                "chargeType": "GOVERNMENT",
+                "code": "SQ",
+                "country": "CA",
+                "salePrice": "USD3.10"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "RC",
+                "chargeType": "GOVERNMENT",
+                "code": "RC",
+                "country": "CA",
+                "salePrice": "USD0.40"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD4.50"
+              }
+            ],
+            "fareCalculation": "IND AC X/YTO AC LON 1135.00H4E NUC 1135.00 END ROE 1.00 FARE USD 1135.00 XT 17.80US 5.60AY 0.40RC 3.10SQ 229.00YQ 4.50XF IND4.50",
+            "latestTicketingTime": "2016-04-08T01:19-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1395.40",
+        "id": "5MdBBg3sNzVN4DwoQSRtv300I",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 635,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 89,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "8610"
+                },
+                "id": "GpaV6dNUrJiQNWW0",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LsFB61vqd8HZ-M8m",
+                    "aircraft": "CRJ",
+                    "arrivalTime": "2016-04-20T16:24-04:00",
+                    "departureTime": "2016-04-20T14:55-04:00",
+                    "origin": "IND",
+                    "destination": "YYZ",
+                    "destinationTerminal": "1",
+                    "duration": 89,
+                    "operatingDisclosure": "OPERATED BY AIR CANADA EXPRESS - AIR GEORGIAN",
+                    "mileage": 438,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 131
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 415,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "8268"
+                },
+                "id": "G13klBnrB0qn2xxA",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "L58NAawlA7FpHG2X",
+                    "aircraft": "789",
+                    "arrivalTime": "2016-04-21T06:30+01:00",
+                    "departureTime": "2016-04-20T18:35-04:00",
+                    "origin": "YYZ",
+                    "destination": "LHR",
+                    "originTerminal": "1",
+                    "destinationTerminal": "2",
+                    "duration": 415,
+                    "operatingDisclosure": "OPERATED BY AIR CANADA",
+                    "mileage": 3544,
+                    "meal": "Meal",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "carrier": "UA",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "H4E"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "segmentId": "GpaV6dNUrJiQNWW0"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "segmentId": "G13klBnrB0qn2xxA"
+              }
+            ],
+            "baseFareTotal": "USD1135.00",
+            "saleFareTotal": "USD1135.00",
+            "saleTaxTotal": "USD260.40",
+            "saleTotal": "USD1395.40",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "SQ",
+                "chargeType": "GOVERNMENT",
+                "code": "SQ",
+                "country": "CA",
+                "salePrice": "USD3.10"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "RC",
+                "chargeType": "GOVERNMENT",
+                "code": "RC",
+                "country": "CA",
+                "salePrice": "USD0.40"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD4.50"
+              }
+            ],
+            "fareCalculation": "IND UA X/YTO UA LON 1135.00H4E NUC 1135.00 END ROE 1.00 FARE USD 1135.00 XT 17.80US 5.60AY 0.40RC 3.10SQ 229.00YQ 4.50XF IND4.50",
+            "latestTicketingTime": "2016-04-08T01:19-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1396.40",
+        "id": "5MdBBg3sNzVN4DwoQSRtv3008",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 615,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 72,
+                "flight": {
+                  "carrier": "KL",
+                  "number": "5530"
+                },
+                "id": "GvIBrTgHNC4qnbqT",
+                "cabin": "COACH",
+                "bookingCode": "U",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "L4B0hwmSTav7vS+G",
+                    "aircraft": "CR9",
+                    "arrivalTime": "2016-04-20T21:02-04:00",
+                    "departureTime": "2016-04-20T19:50-04:00",
+                    "origin": "IND",
+                    "destination": "DTW",
+                    "destinationTerminal": "EM",
+                    "duration": 72,
+                    "operatingDisclosure": "OPERATED BY ENDEAVOR AIR DBA DELTA CONNECTION",
+                    "mileage": 230,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 71
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 472,
+                "flight": {
+                  "carrier": "KL",
+                  "number": "6078"
+                },
+                "id": "GELFVy+OMhyyHTGM",
+                "cabin": "COACH",
+                "bookingCode": "U",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LtAyKsAm8FK9DQZJ",
+                    "aircraft": "764",
+                    "arrivalTime": "2016-04-21T11:05+01:00",
+                    "departureTime": "2016-04-20T22:13-04:00",
+                    "origin": "DTW",
+                    "destination": "LHR",
+                    "originTerminal": "EM",
+                    "destinationTerminal": "4",
+                    "duration": 472,
+                    "operatingDisclosure": "OPERATED BY DELTA",
+                    "mileage": 3754,
+                    "meal": "Dinner",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "ADTvG/pzV8KT0cZSU3un0Rf64kC01dPw3E4H+IxF4IKk",
+                "carrier": "KL",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "UB9WUS"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ADTvG/pzV8KT0cZSU3un0Rf64kC01dPw3E4H+IxF4IKk",
+                "segmentId": "GvIBrTgHNC4qnbqT"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ADTvG/pzV8KT0cZSU3un0Rf64kC01dPw3E4H+IxF4IKk",
+                "segmentId": "GELFVy+OMhyyHTGM"
+              }
+            ],
+            "baseFareTotal": "USD1135.00",
+            "saleFareTotal": "USD1135.00",
+            "saleTaxTotal": "USD261.40",
+            "saleTotal": "USD1396.40",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YR_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YR",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD9.00"
+              }
+            ],
+            "fareCalculation": "IND KL X/DTT KL LON M 1135.00UB9WUS NUC 1135.00 END ROE 1.00 FARE USD 1135.00 XT 17.80US 5.60AY 229.00YR 9.00XF IND4.50 DTW4.50",
+            "latestTicketingTime": "2016-04-08T01:19-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1396.40",
+        "id": "5MdBBg3sNzVN4DwoQSRtv3007",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 615,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 134,
+                "flight": {
+                  "carrier": "VS",
+                  "number": "4292"
+                },
+                "id": "Gi-SpNH2oj2NPeWE",
+                "cabin": "COACH",
+                "bookingCode": "R",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "L9LlD-YmMy6QPi-k",
+                    "aircraft": "E70",
+                    "arrivalTime": "2016-04-20T20:09-04:00",
+                    "departureTime": "2016-04-20T17:55-04:00",
+                    "origin": "IND",
+                    "destination": "BOS",
+                    "destinationTerminal": "A",
+                    "duration": 134,
+                    "operatingDisclosure": "OPERATED BY SHUTTLE AMERICA DELTA CONNECTION",
+                    "mileage": 815,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 86
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 395,
+                "flight": {
+                  "carrier": "VS",
+                  "number": "12"
+                },
+                "id": "Gke+NnCM8AKv61aR",
+                "cabin": "COACH",
+                "bookingCode": "R",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "1",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "L6wQ0-1nr9f1dxg4",
+                    "aircraft": "333",
+                    "arrivalTime": "2016-04-21T09:10+01:00",
+                    "departureTime": "2016-04-20T21:35-04:00",
+                    "origin": "BOS",
+                    "destination": "LHR",
+                    "originTerminal": "E",
+                    "destinationTerminal": "3",
+                    "duration": 395,
+                    "mileage": 3254,
+                    "meal": "Dinner",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "A15kFAKvR1iTYeDxcPEK83rn8Um2WPIDny0mxBDh/mjQ",
+                "carrier": "VS",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "RB9WUS"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "A15kFAKvR1iTYeDxcPEK83rn8Um2WPIDny0mxBDh/mjQ",
+                "segmentId": "Gi-SpNH2oj2NPeWE"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "A15kFAKvR1iTYeDxcPEK83rn8Um2WPIDny0mxBDh/mjQ",
+                "segmentId": "Gke+NnCM8AKv61aR"
+              }
+            ],
+            "baseFareTotal": "USD1135.00",
+            "saleFareTotal": "USD1135.00",
+            "saleTaxTotal": "USD261.40",
+            "saleTotal": "USD1396.40",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_F",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD9.00"
+              }
+            ],
+            "fareCalculation": "IND VS X/BOS VS LON M 1135.00RB9WUS NUC 1135.00 END ROE 1.00 FARE USD 1135.00 XT 17.80US 5.60AY 229.00YQ 9.00XF IND4.50 BOS4.50",
+            "latestTicketingTime": "2016-04-08T01:19-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1396.40",
+        "id": "5MdBBg3sNzVN4DwoQSRtv300H",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 629,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 74,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "3887"
+                },
+                "id": "GY8Y91VuqDUHIhBs",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LWlc19j-Eb9FcJ4n",
+                    "aircraft": "ERJ",
+                    "arrivalTime": "2016-04-20T20:05-05:00",
+                    "departureTime": "2016-04-20T19:51-04:00",
+                    "origin": "IND",
+                    "destination": "ORD",
+                    "destinationTerminal": "2",
+                    "duration": 74,
+                    "operatingDisclosure": "OPERATED BY EXPRESSJET AIRLINES DBA UNITED EXPRESS",
+                    "onTimePerformance": 80,
+                    "mileage": 177,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 60
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 495,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "938"
+                },
+                "id": "G2Ez0UvkADhHmx8w",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "Lry1D7k6NLT8uNNC",
+                    "aircraft": "763",
+                    "arrivalTime": "2016-04-21T11:20+01:00",
+                    "departureTime": "2016-04-20T21:05-05:00",
+                    "origin": "ORD",
+                    "destination": "LHR",
+                    "originTerminal": "1",
+                    "destinationTerminal": "2",
+                    "duration": 495,
+                    "mileage": 3939,
+                    "meal": "Dinner",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "carrier": "UA",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "H4E"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "segmentId": "GY8Y91VuqDUHIhBs"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "segmentId": "G2Ez0UvkADhHmx8w"
+              }
+            ],
+            "baseFareTotal": "USD1135.00",
+            "saleFareTotal": "USD1135.00",
+            "saleTaxTotal": "USD261.40",
+            "saleTotal": "USD1396.40",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD9.00"
+              }
+            ],
+            "fareCalculation": "IND UA X/CHI UA LON 1135.00H4E NUC 1135.00 END ROE 1.00 FARE USD 1135.00 XT 17.80US 5.60AY 229.00YQ 9.00XF IND4.50 ORD4.50",
+            "latestTicketingTime": "2016-04-08T01:19-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1396.40",
+        "id": "5MdBBg3sNzVN4DwoQSRtv3003",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 610,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 95,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "6179"
+                },
+                "id": "Gcl1wGOlf18crmMC",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LoS6Stn9ynUUiyUu",
+                    "aircraft": "CR7",
+                    "arrivalTime": "2016-04-20T07:35-04:00",
+                    "departureTime": "2016-04-20T06:00-04:00",
+                    "origin": "IND",
+                    "destination": "IAD",
+                    "duration": 95,
+                    "operatingDisclosure": "OPERATED BY MESA AIRLINES DBA UNITED EXPRESS",
+                    "mileage": 474,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 65
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 450,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "122"
+                },
+                "id": "Ge0vN-Txdter7FMH",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "L9ewFHcXCBtTcp0O",
+                    "aircraft": "752",
+                    "arrivalTime": "2016-04-20T21:10+01:00",
+                    "departureTime": "2016-04-20T08:40-04:00",
+                    "origin": "IAD",
+                    "destination": "LHR",
+                    "destinationTerminal": "2",
+                    "duration": 450,
+                    "mileage": 3665,
+                    "meal": "Lunch",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "carrier": "UA",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "H4E"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "segmentId": "Gcl1wGOlf18crmMC"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "segmentId": "Ge0vN-Txdter7FMH"
+              }
+            ],
+            "baseFareTotal": "USD1135.00",
+            "saleFareTotal": "USD1135.00",
+            "saleTaxTotal": "USD261.40",
+            "saleTotal": "USD1396.40",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD9.00"
+              }
+            ],
+            "fareCalculation": "IND UA X/WAS UA LON 1135.00H4E NUC 1135.00 END ROE 1.00 FARE USD 1135.00 XT 17.80US 5.60AY 229.00YQ 9.00XF IND4.50 IAD4.50",
+            "latestTicketingTime": "2016-04-08T01:19-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1396.40",
+        "id": "5MdBBg3sNzVN4DwoQSRtv3005",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 586,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 76,
+                "flight": {
+                  "carrier": "VS",
+                  "number": "3145"
+                },
+                "id": "Gpl4f0L22FxTQkMD",
+                "cabin": "COACH",
+                "bookingCode": "R",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LZR5hmWFARSyoYd1",
+                    "aircraft": "717",
+                    "arrivalTime": "2016-04-20T16:55-04:00",
+                    "departureTime": "2016-04-20T15:39-04:00",
+                    "origin": "IND",
+                    "destination": "DTW",
+                    "destinationTerminal": "EM",
+                    "duration": 76,
+                    "operatingDisclosure": "OPERATED BY DELTA",
+                    "mileage": 230,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 55
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 455,
+                "flight": {
+                  "carrier": "VS",
+                  "number": "108"
+                },
+                "id": "GQJ2xAIeIpesgnte",
+                "cabin": "COACH",
+                "bookingCode": "R",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "1",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "Lqy6SK-Ca+lKI8wY",
+                    "aircraft": "333",
+                    "arrivalTime": "2016-04-21T06:25+01:00",
+                    "departureTime": "2016-04-20T17:50-04:00",
+                    "origin": "DTW",
+                    "destination": "LHR",
+                    "originTerminal": "EM",
+                    "destinationTerminal": "3",
+                    "duration": 455,
+                    "mileage": 3754,
+                    "meal": "Dinner",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "A15kFAKvR1iTYeDxcPEK83rn8Um2WPIDny0mxBDh/mjQ",
+                "carrier": "VS",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "RB9WUS"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "A15kFAKvR1iTYeDxcPEK83rn8Um2WPIDny0mxBDh/mjQ",
+                "segmentId": "Gpl4f0L22FxTQkMD"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "A15kFAKvR1iTYeDxcPEK83rn8Um2WPIDny0mxBDh/mjQ",
+                "segmentId": "GQJ2xAIeIpesgnte"
+              }
+            ],
+            "baseFareTotal": "USD1135.00",
+            "saleFareTotal": "USD1135.00",
+            "saleTaxTotal": "USD261.40",
+            "saleTotal": "USD1396.40",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_F",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD9.00"
+              }
+            ],
+            "fareCalculation": "IND VS X/DTT VS LON M 1135.00RB9WUS NUC 1135.00 END ROE 1.00 FARE USD 1135.00 XT 17.80US 5.60AY 229.00YQ 9.00XF IND4.50 DTW4.50",
+            "latestTicketingTime": "2016-04-08T01:19-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1396.40",
+        "id": "5MdBBg3sNzVN4DwoQSRtv300A",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 626,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 125,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "3631"
+                },
+                "id": "GuKIXgKl2O4IohzZ",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LJ6rvlDA4FASdYBS",
+                    "aircraft": "E70",
+                    "arrivalTime": "2016-04-20T20:49-04:00",
+                    "departureTime": "2016-04-20T18:44-04:00",
+                    "origin": "IND",
+                    "destination": "EWR",
+                    "destinationTerminal": "C",
+                    "duration": 125,
+                    "operatingDisclosure": "OPERATED BY SHUTTLE AMERICA DBA UNITED EXPRESS",
+                    "mileage": 642,
+                    "meal": "Food and Beverages for Purchase",
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 46
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 455,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "940"
+                },
+                "id": "GzcWppZsbP-OTOvQ",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LIKu2OYLzcRQPRx4",
+                    "aircraft": "752",
+                    "arrivalTime": "2016-04-21T10:10+01:00",
+                    "departureTime": "2016-04-20T21:35-04:00",
+                    "origin": "EWR",
+                    "destination": "LHR",
+                    "originTerminal": "C",
+                    "destinationTerminal": "2",
+                    "duration": 455,
+                    "mileage": 3454,
+                    "meal": "Dinner",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "carrier": "UA",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "H4E"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "segmentId": "GuKIXgKl2O4IohzZ"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "segmentId": "GzcWppZsbP-OTOvQ"
+              }
+            ],
+            "baseFareTotal": "USD1135.00",
+            "saleFareTotal": "USD1135.00",
+            "saleTaxTotal": "USD261.40",
+            "saleTotal": "USD1396.40",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD9.00"
+              }
+            ],
+            "fareCalculation": "IND UA X/EWR UA LON 1135.00H4E NUC 1135.00 END ROE 1.00 FARE USD 1135.00 XT 17.80US 5.60AY 229.00YQ 9.00XF IND4.50 EWR4.50",
+            "latestTicketingTime": "2016-04-08T01:19-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1396.40",
+        "id": "5MdBBg3sNzVN4DwoQSRtv3006",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 595,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 95,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "6250"
+                },
+                "id": "GUGqBdkYGYe1zWDG",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "L2t04++-KzYLdcOt",
+                    "aircraft": "CR7",
+                    "arrivalTime": "2016-04-20T21:10-04:00",
+                    "departureTime": "2016-04-20T19:35-04:00",
+                    "origin": "IND",
+                    "destination": "IAD",
+                    "duration": 95,
+                    "operatingDisclosure": "OPERATED BY MESA AIRLINES DBA UNITED EXPRESS",
+                    "mileage": 474,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 50
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 450,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "924"
+                },
+                "id": "G3RNB-4Kpf9IZHAI",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LoePKdsvd1S5+Gc0",
+                    "aircraft": "777",
+                    "arrivalTime": "2016-04-21T10:30+01:00",
+                    "departureTime": "2016-04-20T22:00-04:00",
+                    "origin": "IAD",
+                    "destination": "LHR",
+                    "destinationTerminal": "2",
+                    "duration": 450,
+                    "mileage": 3665,
+                    "meal": "Dinner",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "carrier": "UA",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "H4E"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "segmentId": "G3RNB-4Kpf9IZHAI"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "segmentId": "GUGqBdkYGYe1zWDG"
+              }
+            ],
+            "baseFareTotal": "USD1135.00",
+            "saleFareTotal": "USD1135.00",
+            "saleTaxTotal": "USD261.40",
+            "saleTotal": "USD1396.40",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD9.00"
+              }
+            ],
+            "fareCalculation": "IND UA X/WAS UA LON 1135.00H4E NUC 1135.00 END ROE 1.00 FARE USD 1135.00 XT 17.80US 5.60AY 229.00YQ 9.00XF IND4.50 IAD4.50",
+            "latestTicketingTime": "2016-04-08T01:19-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1396.40",
+        "id": "5MdBBg3sNzVN4DwoQSRtv3009",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 615,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 72,
+                "flight": {
+                  "carrier": "VS",
+                  "number": "5652"
+                },
+                "id": "GcREtXKMuQULUyVG",
+                "cabin": "COACH",
+                "bookingCode": "R",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LzPckC2QfRvE9Wd6",
+                    "aircraft": "CR9",
+                    "arrivalTime": "2016-04-20T21:02-04:00",
+                    "departureTime": "2016-04-20T19:50-04:00",
+                    "origin": "IND",
+                    "destination": "DTW",
+                    "destinationTerminal": "EM",
+                    "duration": 72,
+                    "operatingDisclosure": "OPERATED BY ENDEAVOR AIR DBA DELTA CONNECTION",
+                    "mileage": 230,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 71
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 472,
+                "flight": {
+                  "carrier": "VS",
+                  "number": "4018"
+                },
+                "id": "G2GyzPh85IN7MdYj",
+                "cabin": "COACH",
+                "bookingCode": "R",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "Lg0drLypgWJfAZ9m",
+                    "aircraft": "764",
+                    "arrivalTime": "2016-04-21T11:05+01:00",
+                    "departureTime": "2016-04-20T22:13-04:00",
+                    "origin": "DTW",
+                    "destination": "LHR",
+                    "originTerminal": "EM",
+                    "destinationTerminal": "4",
+                    "duration": 472,
+                    "operatingDisclosure": "OPERATED BY DELTA",
+                    "mileage": 3754,
+                    "meal": "Dinner",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "A15kFAKvR1iTYeDxcPEK83rn8Um2WPIDny0mxBDh/mjQ",
+                "carrier": "VS",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "RB9WUS"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "A15kFAKvR1iTYeDxcPEK83rn8Um2WPIDny0mxBDh/mjQ",
+                "segmentId": "G2GyzPh85IN7MdYj"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "A15kFAKvR1iTYeDxcPEK83rn8Um2WPIDny0mxBDh/mjQ",
+                "segmentId": "GcREtXKMuQULUyVG"
+              }
+            ],
+            "baseFareTotal": "USD1135.00",
+            "saleFareTotal": "USD1135.00",
+            "saleTaxTotal": "USD261.40",
+            "saleTotal": "USD1396.40",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_F",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD9.00"
+              }
+            ],
+            "fareCalculation": "IND VS X/DTT VS LON M 1135.00RB9WUS NUC 1135.00 END ROE 1.00 FARE USD 1135.00 XT 17.80US 5.60AY 229.00YQ 9.00XF IND4.50 DTW4.50",
+            "latestTicketingTime": "2016-04-08T01:19-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1396.40",
+        "id": "5MdBBg3sNzVN4DwoQSRtv300K",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 634,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 99,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "6241"
+                },
+                "id": "GhtLvOFQfhLMuufT",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LM2-2uU+VAFX0nmX",
+                    "aircraft": "CR7",
+                    "arrivalTime": "2016-04-20T16:25-04:00",
+                    "departureTime": "2016-04-20T14:46-04:00",
+                    "origin": "IND",
+                    "destination": "IAD",
+                    "duration": 99,
+                    "operatingDisclosure": "OPERATED BY MESA AIRLINES DBA UNITED EXPRESS",
+                    "mileage": 474,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 85
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 450,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "918"
+                },
+                "id": "GmR0qrpdJGyro8as",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LETCJKV7qpT58GBL",
+                    "aircraft": "777",
+                    "arrivalTime": "2016-04-21T06:20+01:00",
+                    "departureTime": "2016-04-20T17:50-04:00",
+                    "origin": "IAD",
+                    "destination": "LHR",
+                    "destinationTerminal": "2",
+                    "duration": 450,
+                    "mileage": 3665,
+                    "meal": "Dinner",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "carrier": "UA",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "H4E"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "segmentId": "GmR0qrpdJGyro8as"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "ABlJcuI162B4UafeATTHasSkE3ii/0+rUA4azhro",
+                "segmentId": "GhtLvOFQfhLMuufT"
+              }
+            ],
+            "baseFareTotal": "USD1135.00",
+            "saleFareTotal": "USD1135.00",
+            "saleTaxTotal": "USD261.40",
+            "saleTotal": "USD1396.40",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD9.00"
+              }
+            ],
+            "fareCalculation": "IND UA X/WAS UA LON 1135.00H4E NUC 1135.00 END ROE 1.00 FARE USD 1135.00 XT 17.80US 5.60AY 229.00YQ 9.00XF IND4.50 IAD4.50",
+            "latestTicketingTime": "2016-04-08T01:19-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1411.40",
+        "id": "5MdBBg3sNzVN4DwoQSRtv300B",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 700,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 68,
+                "flight": {
+                  "carrier": "BA",
+                  "number": "1918"
+                },
+                "id": "GHZ4iE1SiTXuTP9W",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "L5Jedq3t-qDWuEsc",
+                    "aircraft": "EMJ",
+                    "arrivalTime": "2016-04-20T06:13-05:00",
+                    "departureTime": "2016-04-20T06:05-04:00",
+                    "origin": "IND",
+                    "destination": "ORD",
+                    "destinationTerminal": "3",
+                    "duration": 68,
+                    "operatingDisclosure": "OPERATED BY REPUBLIC AIRLINES AS AMERICAN EAGLE FOR AMERICAN AIRLINES",
+                    "mileage": 177,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 162
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 470,
+                "flight": {
+                  "carrier": "BA",
+                  "number": "1541"
+                },
+                "id": "GapHxwfc7sWZVNvh",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "1",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LxIZPAZzi24do7++",
+                    "aircraft": "763",
+                    "arrivalTime": "2016-04-20T22:45+01:00",
+                    "departureTime": "2016-04-20T08:55-05:00",
+                    "origin": "ORD",
+                    "destination": "LHR",
+                    "originTerminal": "3",
+                    "destinationTerminal": "3",
+                    "duration": 470,
+                    "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+                    "mileage": 3939,
+                    "meal": "Breakfast",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "AJeaKf/QUycnlIO29YVjulFHGuK2XCGCPKmmzN7PhDSY",
+                "carrier": "BA",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "H1N0O1CI"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "AJeaKf/QUycnlIO29YVjulFHGuK2XCGCPKmmzN7PhDSY",
+                "segmentId": "GapHxwfc7sWZVNvh"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "AJeaKf/QUycnlIO29YVjulFHGuK2XCGCPKmmzN7PhDSY",
+                "segmentId": "GHZ4iE1SiTXuTP9W"
+              }
+            ],
+            "baseFareTotal": "USD1150.00",
+            "saleFareTotal": "USD1150.00",
+            "saleTaxTotal": "USD261.40",
+            "saleTotal": "USD1411.40",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD9.00"
+              }
+            ],
+            "fareCalculation": "IND BA X/E/CHI BA LON M 1150.00H1N0O1CI NUC 1150.00 END ROE 1.00 FARE USD 1150.00 XT 17.80US 5.60AY 229.00YQ 9.00XF IND4.50 ORD4.50",
+            "latestTicketingTime": "2016-04-08T23:59-04:00",
+            "ptc": "ADT"
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1411.40",
+        "id": "5MdBBg3sNzVN4DwoQSRtv3004",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 625,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 73,
+                "flight": {
+                  "carrier": "BA",
+                  "number": "7887"
+                },
+                "id": "GYIDFZ3wzk6K95s7",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "L+YW3CroHA5PV3VV",
+                    "aircraft": "EMJ",
+                    "arrivalTime": "2016-04-20T07:33-05:00",
+                    "departureTime": "2016-04-20T07:20-04:00",
+                    "origin": "IND",
+                    "destination": "ORD",
+                    "destinationTerminal": "3",
+                    "duration": 73,
+                    "operatingDisclosure": "OPERATED BY REPUBLIC AIRLINES AS AMERICAN EAGLE FOR AMERICAN AIRLINES",
+                    "mileage": 177,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 82
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 470,
+                "flight": {
+                  "carrier": "BA",
+                  "number": "1541"
+                },
+                "id": "GapHxwfc7sWZVNvh",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "1",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LxIZPAZzi24do7++",
+                    "aircraft": "763",
+                    "arrivalTime": "2016-04-20T22:45+01:00",
+                    "departureTime": "2016-04-20T08:55-05:00",
+                    "origin": "ORD",
+                    "destination": "LHR",
+                    "originTerminal": "3",
+                    "destinationTerminal": "3",
+                    "duration": 470,
+                    "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+                    "mileage": 3939,
+                    "meal": "Breakfast",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "AJeaKf/QUycnlIO29YVjulFHGuK2XCGCPKmmzN7PhDSY",
+                "carrier": "BA",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "H1N0O1CI"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "AJeaKf/QUycnlIO29YVjulFHGuK2XCGCPKmmzN7PhDSY",
+                "segmentId": "GapHxwfc7sWZVNvh"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "AJeaKf/QUycnlIO29YVjulFHGuK2XCGCPKmmzN7PhDSY",
+                "segmentId": "GYIDFZ3wzk6K95s7"
+              }
+            ],
+            "baseFareTotal": "USD1150.00",
+            "saleFareTotal": "USD1150.00",
+            "saleTaxTotal": "USD261.40",
+            "saleTotal": "USD1411.40",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD9.00"
+              }
+            ],
+            "fareCalculation": "IND BA X/E/CHI BA LON M 1150.00H1N0O1CI NUC 1150.00 END ROE 1.00 FARE USD 1150.00 XT 17.80US 5.60AY 229.00YQ 9.00XF IND4.50 ORD4.50",
+            "latestTicketingTime": "2016-04-08T23:59-04:00",
+            "ptc": "ADT"
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1412.90",
+        "id": "5MdBBg3sNzVN4DwoQSRtv300C",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 600,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 89,
+                "flight": {
+                  "carrier": "AC",
+                  "number": "7310"
+                },
+                "id": "GsWA7NMINIKR+WvC",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "L1K70GlT7j6UKOfB",
+                    "aircraft": "CRJ",
+                    "arrivalTime": "2016-04-20T07:29-04:00",
+                    "departureTime": "2016-04-20T06:00-04:00",
+                    "origin": "IND",
+                    "destination": "YYZ",
+                    "destinationTerminal": "1",
+                    "duration": 89,
+                    "operatingDisclosure": "OPERATED BY AIR CANADA EXPRESS - AIR GEORGIAN",
+                    "mileage": 438,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 86
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 425,
+                "flight": {
+                  "carrier": "LH",
+                  "number": "6589"
+                },
+                "id": "GBM-sqemIkrYmH57",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 4,
+                "marriedSegmentGroup": "1",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LuVvTejtQwh8UKik",
+                    "aircraft": "763",
+                    "arrivalTime": "2016-04-20T21:00+01:00",
+                    "departureTime": "2016-04-20T08:55-04:00",
+                    "origin": "YYZ",
+                    "destination": "LHR",
+                    "originTerminal": "1",
+                    "destinationTerminal": "2",
+                    "duration": 425,
+                    "operatingDisclosure": "OPERATED BY AIR CANADA",
+                    "mileage": 3544,
+                    "meal": "Meal",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "AGIuNdUaF+MQhhGdlDtI5fvYQeYCT1EoqAnME5Go",
+                "carrier": "LH",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "H4E"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "AGIuNdUaF+MQhhGdlDtI5fvYQeYCT1EoqAnME5Go",
+                "segmentId": "GBM-sqemIkrYmH57"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "AGIuNdUaF+MQhhGdlDtI5fvYQeYCT1EoqAnME5Go",
+                "segmentId": "GsWA7NMINIKR+WvC"
+              }
+            ],
+            "baseFareTotal": "USD1135.00",
+            "saleFareTotal": "USD1135.00",
+            "saleTaxTotal": "USD277.90",
+            "saleTotal": "USD1412.90",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "SQ",
+                "chargeType": "GOVERNMENT",
+                "code": "SQ",
+                "country": "CA",
+                "salePrice": "USD3.10"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "RC",
+                "chargeType": "GOVERNMENT",
+                "code": "RC",
+                "country": "CA",
+                "salePrice": "USD0.40"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YR_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YR",
+                "salePrice": "USD17.50"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD4.50"
+              }
+            ],
+            "fareCalculation": "IND AC X/YTO LH LON 1135.00H4E NUC 1135.00 END ROE 1.00 FARE USD 1135.00 XT 17.80US 5.60AY 0.40RC 3.10SQ 229.00YQ 17.50YR 4.50XF IND4.50",
+            "latestTicketingTime": "2016-04-08T01:19-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1413.90",
+        "id": "5MdBBg3sNzVN4DwoQSRtv300E",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 610,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 95,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "6179"
+                },
+                "id": "Gcl1wGOlf18crmMC",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LoS6Stn9ynUUiyUu",
+                    "aircraft": "CR7",
+                    "arrivalTime": "2016-04-20T07:35-04:00",
+                    "departureTime": "2016-04-20T06:00-04:00",
+                    "origin": "IND",
+                    "destination": "IAD",
+                    "duration": 95,
+                    "operatingDisclosure": "OPERATED BY MESA AIRLINES DBA UNITED EXPRESS",
+                    "mileage": 474,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 65
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 450,
+                "flight": {
+                  "carrier": "OS",
+                  "number": "7804"
+                },
+                "id": "GIKWEJuHFQ4JLCMk",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 4,
+                "marriedSegmentGroup": "1",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LWL0TNQbtZn1jIKx",
+                    "aircraft": "752",
+                    "arrivalTime": "2016-04-20T21:10+01:00",
+                    "departureTime": "2016-04-20T08:40-04:00",
+                    "origin": "IAD",
+                    "destination": "LHR",
+                    "destinationTerminal": "2",
+                    "duration": 450,
+                    "operatingDisclosure": "OPERATED BY UNITED",
+                    "mileage": 3665,
+                    "meal": "Lunch",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "Aqjq0Y6q206ZpiBtU4Zx21wFsf02CDSi40XUZPWo",
+                "carrier": "OS",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "H4E"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "Aqjq0Y6q206ZpiBtU4Zx21wFsf02CDSi40XUZPWo",
+                "segmentId": "Gcl1wGOlf18crmMC"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "Aqjq0Y6q206ZpiBtU4Zx21wFsf02CDSi40XUZPWo",
+                "segmentId": "GIKWEJuHFQ4JLCMk"
+              }
+            ],
+            "baseFareTotal": "USD1135.00",
+            "saleFareTotal": "USD1135.00",
+            "saleTaxTotal": "USD278.90",
+            "saleTotal": "USD1413.90",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YR_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YR",
+                "salePrice": "USD17.50"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD9.00"
+              }
+            ],
+            "fareCalculation": "IND UA X/WAS OS LON 1135.00H4E NUC 1135.00 END ROE 1.00 FARE USD 1135.00 XT 17.80US 5.60AY 229.00YQ 17.50YR 9.00XF IND4.50 IAD4.50",
+            "latestTicketingTime": "2016-04-08T01:19-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD1413.90",
+        "id": "5MdBBg3sNzVN4DwoQSRtv300D",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 610,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 95,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "6179"
+                },
+                "id": "Gcl1wGOlf18crmMC",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LoS6Stn9ynUUiyUu",
+                    "aircraft": "CR7",
+                    "arrivalTime": "2016-04-20T07:35-04:00",
+                    "departureTime": "2016-04-20T06:00-04:00",
+                    "origin": "IND",
+                    "destination": "IAD",
+                    "duration": 95,
+                    "operatingDisclosure": "OPERATED BY MESA AIRLINES DBA UNITED EXPRESS",
+                    "mileage": 474,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 65
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 450,
+                "flight": {
+                  "carrier": "LH",
+                  "number": "9227"
+                },
+                "id": "GBfNNsNauqyTxWAj",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 4,
+                "marriedSegmentGroup": "1",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LHvSRhpiINzPtMCr",
+                    "aircraft": "752",
+                    "arrivalTime": "2016-04-20T21:10+01:00",
+                    "departureTime": "2016-04-20T08:40-04:00",
+                    "origin": "IAD",
+                    "destination": "LHR",
+                    "destinationTerminal": "2",
+                    "duration": 450,
+                    "operatingDisclosure": "OPERATED BY UNITED",
+                    "mileage": 3665,
+                    "meal": "Meal",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "AGIuNdUaF+MQhhGdlDtI5fvYQeYCT1EoqAnME5Go",
+                "carrier": "LH",
+                "origin": "IND",
+                "destination": "LON",
+                "basisCode": "H4E"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "AGIuNdUaF+MQhhGdlDtI5fvYQeYCT1EoqAnME5Go",
+                "segmentId": "Gcl1wGOlf18crmMC"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "AGIuNdUaF+MQhhGdlDtI5fvYQeYCT1EoqAnME5Go",
+                "segmentId": "GBfNNsNauqyTxWAj"
+              }
+            ],
+            "baseFareTotal": "USD1135.00",
+            "saleFareTotal": "USD1135.00",
+            "saleTaxTotal": "USD278.90",
+            "saleTotal": "USD1413.90",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YR_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YR",
+                "salePrice": "USD17.50"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD9.00"
+              }
+            ],
+            "fareCalculation": "IND UA X/WAS LH LON 1135.00H4E NUC 1135.00 END ROE 1.00 FARE USD 1135.00 XT 17.80US 5.60AY 229.00YQ 17.50YR 9.00XF IND4.50 IAD4.50",
+            "latestTicketingTime": "2016-04-08T01:19-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD2600.40",
+        "id": "5MdBBg3sNzVN4DwoQSRtv300F",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 700,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 70,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "3661"
+                },
+                "id": "GoekEMkJP-Dh14sR",
+                "cabin": "COACH",
+                "bookingCode": "Y",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "L+B2Gm-gH-yzBJ8B",
+                    "aircraft": "E70",
+                    "arrivalTime": "2016-04-20T06:15-05:00",
+                    "departureTime": "2016-04-20T06:05-04:00",
+                    "origin": "IND",
+                    "destination": "ORD",
+                    "destinationTerminal": "1",
+                    "duration": 70,
+                    "operatingDisclosure": "OPERATED BY SHUTTLE AMERICA DBA UNITED EXPRESS",
+                    "mileage": 177,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 160
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 470,
+                "flight": {
+                  "carrier": "AY",
+                  "number": "5752"
+                },
+                "id": "GMF3CXnDnMu57Eue",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "1",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "L8KMohGtYAr1+iUW",
+                    "aircraft": "763",
+                    "arrivalTime": "2016-04-20T22:45+01:00",
+                    "departureTime": "2016-04-20T08:55-05:00",
+                    "origin": "ORD",
+                    "destination": "LHR",
+                    "originTerminal": "3",
+                    "destinationTerminal": "3",
+                    "duration": 470,
+                    "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+                    "mileage": 3939,
+                    "meal": "Breakfast",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "AdyqQir7NKVKdV5ps5vD28ZZW++pf6sZ+fE5Nl+k",
+                "carrier": "UA",
+                "origin": "IND",
+                "destination": "CHI",
+                "basisCode": "YUA"
+              },
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "Aud2Y3nloFDJoOWAXksLyogPIPNGRSVwK9VGfAMNrbKE",
+                "carrier": "AY",
+                "origin": "CHI",
+                "destination": "LON",
+                "basisCode": "H1N0O1C5"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "AdyqQir7NKVKdV5ps5vD28ZZW++pf6sZ+fE5Nl+k",
+                "segmentId": "GoekEMkJP-Dh14sR"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "Aud2Y3nloFDJoOWAXksLyogPIPNGRSVwK9VGfAMNrbKE",
+                "segmentId": "GMF3CXnDnMu57Eue"
+              }
+            ],
+            "baseFareTotal": "USD2339.00",
+            "saleFareTotal": "USD2339.00",
+            "saleTaxTotal": "USD261.40",
+            "saleTotal": "USD2600.40",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YR_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YR",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD9.00"
+              }
+            ],
+            "fareCalculation": "IND UA X/CHI Q93.02 Q46.51 642.79YUA AY LON M 1557.00H1N0O1C5 NUC 2339.32 END ROE 1.00 FARE USD 2339.00 XT 17.80US 5.60AY 229.00YR 9.00XF IND4.50 ORD4.50",
+            "latestTicketingTime": "2016-04-08T23:59-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      },
+      {
+        "kind": "qpxexpress#tripOption",
+        "saleTotal": "USD2615.40",
+        "id": "5MdBBg3sNzVN4DwoQSRtv300G",
+        "slice": [
+          {
+            "kind": "qpxexpress#sliceInfo",
+            "duration": 700,
+            "segment": [
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 70,
+                "flight": {
+                  "carrier": "UA",
+                  "number": "3661"
+                },
+                "id": "GoekEMkJP-Dh14sR",
+                "cabin": "COACH",
+                "bookingCode": "Y",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "0",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "L+B2Gm-gH-yzBJ8B",
+                    "aircraft": "E70",
+                    "arrivalTime": "2016-04-20T06:15-05:00",
+                    "departureTime": "2016-04-20T06:05-04:00",
+                    "origin": "IND",
+                    "destination": "ORD",
+                    "destinationTerminal": "1",
+                    "duration": 70,
+                    "operatingDisclosure": "OPERATED BY SHUTTLE AMERICA DBA UNITED EXPRESS",
+                    "mileage": 177,
+                    "secure": true
+                  }
+                ],
+                "connectionDuration": 160
+              },
+              {
+                "kind": "qpxexpress#segmentInfo",
+                "duration": 470,
+                "flight": {
+                  "carrier": "BA",
+                  "number": "1541"
+                },
+                "id": "GapHxwfc7sWZVNvh",
+                "cabin": "COACH",
+                "bookingCode": "H",
+                "bookingCodeCount": 9,
+                "marriedSegmentGroup": "1",
+                "leg": [
+                  {
+                    "kind": "qpxexpress#legInfo",
+                    "id": "LxIZPAZzi24do7++",
+                    "aircraft": "763",
+                    "arrivalTime": "2016-04-20T22:45+01:00",
+                    "departureTime": "2016-04-20T08:55-05:00",
+                    "origin": "ORD",
+                    "destination": "LHR",
+                    "originTerminal": "3",
+                    "destinationTerminal": "3",
+                    "duration": 470,
+                    "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+                    "mileage": 3939,
+                    "meal": "Breakfast",
+                    "secure": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pricing": [
+          {
+            "kind": "qpxexpress#pricingInfo",
+            "fare": [
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "AdyqQir7NKVKdV5ps5vD28ZZW++pf6sZ+fE5Nl+k",
+                "carrier": "UA",
+                "origin": "IND",
+                "destination": "CHI",
+                "basisCode": "YUA"
+              },
+              {
+                "kind": "qpxexpress#fareInfo",
+                "id": "AojGx4n6XsVcWSkdQ4cZB/I93sOQTw+m0usMDJRZFTFU",
+                "carrier": "BA",
+                "origin": "CHI",
+                "destination": "LON",
+                "basisCode": "H1N0O1CI"
+              }
+            ],
+            "segmentPricing": [
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "AojGx4n6XsVcWSkdQ4cZB/I93sOQTw+m0usMDJRZFTFU",
+                "segmentId": "GapHxwfc7sWZVNvh"
+              },
+              {
+                "kind": "qpxexpress#segmentPricing",
+                "fareId": "AdyqQir7NKVKdV5ps5vD28ZZW++pf6sZ+fE5Nl+k",
+                "segmentId": "GoekEMkJP-Dh14sR"
+              }
+            ],
+            "baseFareTotal": "USD2354.00",
+            "saleFareTotal": "USD2354.00",
+            "saleTaxTotal": "USD261.40",
+            "saleTotal": "USD2615.40",
+            "passengers": {
+              "kind": "qpxexpress#passengerCounts",
+              "adultCount": 1
+            },
+            "tax": [
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "US_002",
+                "chargeType": "GOVERNMENT",
+                "code": "US",
+                "country": "US",
+                "salePrice": "USD17.80"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "YQ_I",
+                "chargeType": "CARRIER_SURCHARGE",
+                "code": "YQ",
+                "salePrice": "USD229.00"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "AY_001",
+                "chargeType": "GOVERNMENT",
+                "code": "AY",
+                "country": "US",
+                "salePrice": "USD5.60"
+              },
+              {
+                "kind": "qpxexpress#taxInfo",
+                "id": "XF",
+                "chargeType": "GOVERNMENT",
+                "code": "XF",
+                "country": "US",
+                "salePrice": "USD9.00"
+              }
+            ],
+            "fareCalculation": "IND UA X/CHI Q93.02 Q46.51 642.79YUA BA LON M 1572.00H1N0O1CI NUC 2354.32 END ROE 1.00 FARE USD 2354.00 XT 17.80US 5.60AY 229.00YQ 9.00XF IND4.50 ORD4.50",
+            "latestTicketingTime": "2016-04-08T23:59-04:00",
+            "ptc": "ADT",
+            "refundable": true
+          }
+        ]
+      }
+    ]
+  }
+}
