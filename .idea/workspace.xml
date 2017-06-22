@@ -2,169 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb7e8343-610b-4170-837b-3828cde0adac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/yeoman.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 7 0.0.0)/sort-arrow-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/font/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/font/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/font/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jscsrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.yo-rc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/a.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/json/flight.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/json/flight_list_in.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/flightsearch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/location.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/register.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/directives/downloadflightlist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/directives/downloadflightlistcontroller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/filters/flightfilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/services/flightsearchservice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/services/loginpageservice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/services/regpageservice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/flightSearchTable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/location.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/downloadflightlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/flightsearch.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/location.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 7 0.0.0)/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 7 0.0.0)/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 7 0.0.0)/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 7 0.0.0)/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 7 0.0.0)/scripts/app.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 7 0.0.0)/scripts/controllers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 7 0.0.0)/scripts/controllers/location.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 7 0.0.0)/scripts/controllers/login.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 7 0.0.0)/scripts/controllers/main.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 7 0.0.0)/scripts/controllers/register.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 7 0.0.0)/scripts/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 7 0.0.0)/scripts/services/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 7 0.0.0)/scripts/services/regpageservice.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 7 0.0.0)/sorter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/css/morris.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/css/plato-display.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/css/plato-file.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/css/plato-overview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/css/plato.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/css/vendor/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/css/vendor/codemirror.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/css/vendor/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/css/vendor/morris.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/font/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/bundles/codemirror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/bundles/core-bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/codemirror.markpopovertext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/plato-display.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/plato-file.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/plato-overview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/plato-sortable-file-list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/bootstrap-popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/bootstrap-tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/codemirror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/javascript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/closetag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/colorize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/continuecomment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/continuelist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/foldcode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/formatting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/javascript-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/loadmode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/match-highlighter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/matchbrackets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/multiplex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/overlay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/pig-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/runmode-standalone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/runmode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/searchcursor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/simple-hint.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/simple-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/codemirror/util/xml-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/jquery-1.8.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/jquery.fittext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/lodash.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/morris.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/assets/scripts/vendor/raphael-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/display.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_app_js/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_app_js/report.history.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_app_js/report.history.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_app_js/report.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_app_js/report.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_location_js/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_location_js/report.history.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_location_js/report.history.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_location_js/report.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_location_js/report.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_login_js/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_login_js/report.history.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_login_js/report.history.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_login_js/report.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_login_js/report.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_main_js/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_main_js/report.history.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_main_js/report.history.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_main_js/report.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_main_js/report.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_register_js/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_register_js/report.history.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_register_js/report.history.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_register_js/report.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_controllers_register_js/report.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_services_loginpageservice_js/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_services_loginpageservice_js/report.history.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_services_loginpageservice_js/report.history.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_services_loginpageservice_js/report.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_services_loginpageservice_js/report.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_services_regpageservice_js/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_services_regpageservice_js/report.history.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_services_regpageservice_js/report.history.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_services_regpageservice_js/report.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/files/app_scripts_services_regpageservice_js/report.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/report.history.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/report.history.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/report.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/report.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/controllers/downloadflightlistcontroller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/controllers/flightsearch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/controllers/location.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/controllers/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/controllers/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/controllers/register.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/directives/downloadflightlist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/filters/flightfilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/services/flightsearchservice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/services/loginpageservice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/services/regpageservice.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -516,12 +354,20 @@
       <workItem from="1498063259535" duration="96000" />
       <workItem from="1498063415525" duration="5385000" />
       <workItem from="1498068952372" duration="10000" />
-      <workItem from="1498142038529" duration="5319000" />
+      <workItem from="1498142038529" duration="6433000" />
     </task>
+    <task id="LOCAL-00001" summary="committed by 22 June">
+      <created>1498148371170</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1498148371170</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10810000" />
+    <option name="totallyTimeSpent" value="11924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
@@ -555,7 +401,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="committed by 22 June" />
+    <option name="LAST_COMMIT_MESSAGE" value="committed by 22 June" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
