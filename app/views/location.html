@@ -6,11 +6,11 @@
     <form  ng-submit="flightSearch()">
       <div class="form-group">
         <label >Outbound</label>
-        <input type="text" class="form-control" placeholder="enter your destination city" ng-bind="onboundCity">
+        <input type="text" class="form-control" placeholder="enter your destination city"  id="destCity" data-ng-model="cityForOB.city">
       </div>
       <div class="form-group">
         <label >Inbound</label>
-        <input type="text" class="form-control" placeholder="enter your arrival city" ng-bind="inboundCity">
+        <input type="text" class="form-control" placeholder="enter your arrival city" id="arrCity" data-ng-model="inboundCity">
       </div>
 
 

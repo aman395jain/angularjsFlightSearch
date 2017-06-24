@@ -8,9 +8,10 @@
  * Controller of the myAssignmentTaskApp
  */
 angular.module('myAssignmentTaskApp')
-  .controller('LocationCtrl', function ($scope,$location,$rootScope) {
+  .controller('LocationCtrl', function ($scope,$location,$rootScope,flightData) {
     $scope.outboundFlight="";
     $scope.intboundFlight="";
+    var destCity={};
     $scope.username=$rootScope.username;
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(showPosition);
@@ -38,7 +39,12 @@ angular.module('myAssignmentTaskApp')
       $scope.$apply();
 
     }
-
+    flightData.flightsAirport.then(function (response) {
+      $scope.cityForOB = response.flightAirportName;
+      destCity=response.flightAirportName;
+      console.log($scope.cityForOB)
+      console.log(destCity.city)
+    })
 
     $scope.flightSearchToflightDetails= function(onboundCity,inboundCity){
         $scope.outboundFlight=onboundCity;
