@@ -11,7 +11,9 @@ angular.module('myAssignmentTaskApp')
   .controller('LocationCtrl', function ($scope,$location,$rootScope,flightData) {
     $scope.outboundFlight="";
     $scope.intboundFlight="";
-    var destCity={};
+
+    var destCity=[];
+    var destCity1=[];
     $scope.username=$rootScope.username;
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(showPosition);
@@ -40,10 +42,23 @@ angular.module('myAssignmentTaskApp')
 
     }
     flightData.flightsAirport.then(function (response) {
-      $scope.cityForOB = response.flightAirportName;
-      destCity=response.flightAirportName;
+      $scope.cityForOB = response.flightsAirportName;
       console.log($scope.cityForOB)
-      console.log(destCity.city)
+      for(var i=0;i<($scope.cityForOB).length;i++){
+
+        destCity.push($scope.cityForOB[i].city)
+      }
+      console.log(destCity)
+    });
+
+    flightData.getAirportcity.then(function (response) {
+      $scope.cityForOB = response.flightCityName;
+      console.log($scope.cityForOB)
+      for(var i=0;i<($scope.cityForOB).length;i++){
+
+        destCity1.push($scope.cityForOB[i].code)
+      }
+      console.log(destCity1)
     })
 
     $scope.flightSearchToflightDetails= function(onboundCity,inboundCity){
