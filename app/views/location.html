@@ -6,7 +6,7 @@
     <form  ng-submit="flightSearch()">
       <div class="form-group">
         <label >Outbound</label>
-        <input type="text" class="form-control" placeholder="enter your destination city"  id="destCity" data-ng-model="cityForOB.city">
+        <input type="text" class="form-control" placeholder="enter your destination city"  id="deptCity" data-ng-bind="destCity" class="ng-pristine">
       </div>
       <div class="form-group">
         <label >Inbound</label>
@@ -20,7 +20,7 @@
 
 </div>
 
-<div id="mapSelfLocation" class="mapSelfLocaton" class="col-md-6">
+<div id="mapSelfLocation" class="mapSelfLocaton" class="col-md-6">model
 <ui-gmap-google-map center='map.center' zoom='map.zoom'>
   <ui-gmap-markers models="places" coords="'self'" icon="'icon'"></ui-gmap-markers>
 </ui-gmap-google-map>

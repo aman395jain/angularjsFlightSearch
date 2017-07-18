@@ -11,9 +11,11 @@ angular.module('myAssignmentTaskApp')
   .controller('LocationCtrl', function ($scope,$location,$rootScope,flightData) {
     $scope.outboundFlight="";
     $scope.intboundFlight="";
+    var cityForOB= {};
 
-    var destCity=[];
+    $scope.destCity=[];
     var destCity1=[];
+
     $scope.username=$rootScope.username;
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(showPosition);
@@ -42,23 +44,21 @@ angular.module('myAssignmentTaskApp')
 
     }
     flightData.flightsAirport.then(function (response) {
-      $scope.cityForOB = response.flightsAirportName;
-      console.log($scope.cityForOB)
-      for(var i=0;i<($scope.cityForOB).length;i++){
+     cityForOB = response.flightsAirportName;
+      for(var i=0;i<(cityForOB).length;i++){
 
-        destCity.push($scope.cityForOB[i].city)
+        $scope.destCity.push(cityForOB[i].city)
       }
-      console.log(destCity)
+      console.log($scope.destCity)
     });
 
     flightData.getAirportcity.then(function (response) {
-      $scope.cityForOB = response.flightCityName;
-      console.log($scope.cityForOB)
-      for(var i=0;i<($scope.cityForOB).length;i++){
+     cityForOB = response.flightCityName;
+      for(var i=0;i<(cityForOB).length;i++){
 
-        destCity1.push($scope.cityForOB[i].code)
+        destCity1.push(cityForOB[i].code)
       }
-      console.log(destCity1)
+      console.log(destCity1[0])
     })
 
     $scope.flightSearchToflightDetails= function(onboundCity,inboundCity){
@@ -68,6 +68,6 @@ angular.module('myAssignmentTaskApp')
 
 
     }
-  });
 
+  });
 
