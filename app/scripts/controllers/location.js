@@ -43,23 +43,29 @@ angular.module('myAssignmentTaskApp')
       $scope.$apply();
 
     }
-    flightData.flightsAirport.then(function (response) {
-     cityForOB = response.flightsAirportName;
-      for(var i=0;i<(cityForOB).length;i++){
+    function airportDataFromFlightFactory() {
 
-        $scope.destCity.push(cityForOB[i].city)
-      }
-      console.log($scope.destCity)
-    });
+      flightData.flightsAirport.then(function (response) {
+        cityForOB = response.flightsAirportName;
+        for(var i=0;i<(cityForOB).length;i++){
 
-    flightData.getAirportcity.then(function (response) {
-     cityForOB = response.flightCityName;
-      for(var i=0;i<(cityForOB).length;i++){
+          $scope.destCity.push(cityForOB[i].city)
+        }
+        console.log($scope.destCity)
+      });
+    }
 
-        destCity1.push(cityForOB[i].code)
-      }
-      console.log(destCity1[0])
-    })
+    function cityDataFromFlightFactory() {
+      flightData.getAirportcity.then(function (response) {
+        cityForOB = response.flightCityName;
+        for(var i=0;i<(cityForOB).length;i++){
+
+          destCity1.push(cityForOB[i].code)
+        }
+        console.log(destCity1[0])
+      })
+    }
+
 
     $scope.flightSearchToflightDetails= function(onboundCity,inboundCity){
         $scope.outboundFlight=onboundCity;

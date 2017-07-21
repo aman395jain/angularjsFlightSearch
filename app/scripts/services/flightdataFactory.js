@@ -9,7 +9,7 @@
  * created by Aman Jain(24/07/2017)
  */
 angular.module('myAssignmentTaskApp')
-  .factory('flightData', function ($http) {
+  .factory('flightData', function ($http,$q) {
     // Service logic
     // ...
 
@@ -17,6 +17,8 @@ angular.module('myAssignmentTaskApp')
     var flightAirportNameFromJson=[];
     var flightAirportNameFromResponse=[];
     var flightCityNameFromResponse=[];
+    var q= $q;
+    var promise= q.defer();
 
     // Public API here
     function flightsAirport() {
