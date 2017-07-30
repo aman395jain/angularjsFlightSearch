@@ -6,18 +6,6 @@
 <!--
   <button download-flight-list="" ng-click="flightListDownload()">flight list</button>-->
  <!-- <button type="button" class="btn btn-default" ng-click="flightInfo()">Go Back</button><br/><br/>-->
-  <table id="flightTable">
-    <tr class="flightTableth">
-      <th class="flightTableth">Airport Name</th>
-      <th class="flightTableth">city code</th>
-      <th class="flightTableth">Airport_code</th>
-    </tr>
-    <tr class="flightTableth" ng-repeat="airport in airportName">
-      <td class="flightTableth">{{airport.name|uppercase}}</td>
-      <td class="flightTableth">{{airport.city|lowercase}}</td>
-      <td class="flightTableth">{{airport.code|uppercase}}</td>
-    </tr>
-  </table><br><br>
   <table id="flightTableFlightDataFactory">
     <tr class="flightTableth">
       <th class="flightTableth">Airport Name</th>
