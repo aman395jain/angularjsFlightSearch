@@ -7,3 +7,10 @@
 
   border: 1px solid black;
 }
+
+@media only screen and (max-width: 500px) {
+  .flightTableth{
+
+    border: 10px solid black;
+  }
+}
