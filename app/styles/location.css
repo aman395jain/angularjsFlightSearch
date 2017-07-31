@@ -4,3 +4,13 @@
   margin-left: auto;
   padding: 10px 0px 50px 100px;
 }
+
+@media screen and (min-width: 500px) {
+  .mapSelfLocaton{
+    max-width: 400px;
+    max-height: 100%;
+    margin-left: auto;
+    padding: 10px 0px 50px 100px;
+    font-size: x-large;
+  }
+}
