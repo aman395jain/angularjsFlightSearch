@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="cb7e8343-610b-4170-837b-3828cde0adac" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/flightsearch.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/flightsearch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/flightSearchTable.css" afterPath="$PROJECT_DIR$/app/styles/flightSearchTable.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/location.css" afterPath="$PROJECT_DIR$/app/styles/location.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/flightsearch.html" afterPath="$PROJECT_DIR$/app/views/flightsearch.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,9 +24,93 @@
       <file leaf-file-name="flightsearch.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/flightsearch.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="0">
+              <caret line="0" column="74" lean-forward="false" selection-start-line="0" selection-start-column="74" selection-end-line="0" selection-end-column="74" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flightsearch.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/flightsearch.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <marker date="1501687881383" expanded="true" signature="15:177" ph="/** @ngdoc function ...*/" />
+                <marker date="1501687881383" expanded="true" signature="298:954" ph="{...}" />
+                <marker date="1501687881383" expanded="true" signature="341:387" ph="{...}" />
+                <marker date="1501687881383" expanded="true" signature="437:537" ph="{...}" />
+                <marker date="1501687881383" expanded="true" signature="616:669" ph="{...}" />
+                <marker date="1501687881383" expanded="true" signature="716:806" ph="{...}" />
+                <marker date="1501687881383" expanded="true" signature="860:950" ph="//..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="73" column="30" lean-forward="true" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="glyphicons.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/less/glyphicons.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1908">
+              <caret line="144" column="16" lean-forward="false" selection-start-line="144" selection-start-column="11" selection-end-line="144" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="location.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/location.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+              <folding>
+                <marker date="1501416280984" expanded="true" signature="15:169" ph="/** @ngdoc function ...*/" />
+                <marker date="1501416280984" expanded="true" signature="288:1780" ph="{...}" />
+                <marker date="1501416280984" expanded="true" signature="493:562" ph="{...}" />
+                <marker date="1501416280984" expanded="true" signature="600:948" ph="{...}" />
+                <marker date="1501416280984" expanded="true" signature="705:794" ph="{...}" />
+                <marker date="1501416280984" expanded="true" signature="723:766" ph="{&quot;longitude&quot;: longi...}" />
+                <marker date="1501416280984" expanded="true" signature="817:916" ph="[...]" />
+                <marker date="1501416280984" expanded="true" signature="827:907" ph="{&quot;id&quot;: 101...}" />
+                <marker date="1501416280984" expanded="true" signature="993:1264" ph="{...}" />
+                <marker date="1501416280984" expanded="true" signature="1053:1256" ph="{...}" />
+                <marker date="1501416280984" expanded="true" signature="1149:1211" ph="{...}" />
+                <marker date="1501416280984" expanded="true" signature="1307:1563" ph="{...}" />
+                <marker date="1501416280984" expanded="true" signature="1366:1556" ph="{...}" />
+                <marker date="1501416280984" expanded="true" signature="1458:1514" ph="{...}" />
+                <marker date="1501416280984" expanded="true" signature="1639:1775" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -30,28 +118,18 @@
       <file leaf-file-name="flightSearchTable.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/flightSearchTable.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="location.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/location.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="location.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="location.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/location.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -68,10 +146,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>flightTable</find>
-      <find>goBackButton</find>
-      <find>flightSearchToflightDetails</find>
-      <find>enter your destination city</find>
       <find>onboundCity</find>
       <find>city code</find>
       <find>flightAirportName</find>
@@ -89,6 +163,19 @@
       <find>mapSelfLocation</find>
       <find>mapSelfLocaton</find>
       <find>@media o</find>
+      <find>list of flights</find>
+      <find>flightTableFlightDataFactory</find>
+      <find>$ap</find>
+      <find>$location.path(&quot;/location&quot;</find>
+      <find>path</find>
+      <find>backTolocation</find>
+      <find>app.js</find>
+      <find>glyphicon glyphicon-heart</find>
+      <find>glyphicon-heart</find>
+      <find>\e005</find>
+      <find>.glyphicon-hea</find>
+      <find>.glyphicon-plane</find>
+      <find>plane</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -104,15 +191,17 @@
         <option value="$PROJECT_DIR$/app/views/flighttable.html" />
         <option value="$PROJECT_DIR$/app/scripts/directives/flighttable.js" />
         <option value="$PROJECT_DIR$/app/json/flight.json" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scripts/services/flightdata.js" />
         <option value="$PROJECT_DIR$/app/views/location.html" />
         <option value="$PROJECT_DIR$/app/scripts/services/flightsearchservice.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/flightdataFactory.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/location.js" />
-        <option value="$PROJECT_DIR$/app/views/flightsearch.html" />
-        <option value="$PROJECT_DIR$/app/styles/flightSearchTable.css" />
         <option value="$PROJECT_DIR$/app/styles/location.css" />
+        <option value="$PROJECT_DIR$/app/styles/flightSearchTable.css" />
+        <option value="$PROJECT_DIR$/app/views/flightsearch.html" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/flightsearch.js" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -121,6 +210,13 @@
   </component>
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
     <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -160,7 +256,7 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file:///home/aman/angularPractice/angularAssignment2/app/scripts/app.js" />
+    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/scripts/app.js" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -270,7 +366,11 @@
       <workItem from="1500390328555" duration="3084000" />
       <workItem from="1500654978368" duration="176000" />
       <workItem from="1501418246768" duration="2579000" />
-      <workItem from="1501515085086" duration="1326000" />
+      <workItem from="1501515085086" duration="2800000" />
+      <workItem from="1501598952228" duration="3915000" />
+      <workItem from="1501608480328" duration="1235000" />
+      <workItem from="1501685776840" duration="2119000" />
+      <workItem from="1502537042314" duration="4740000" />
     </task>
     <task id="LOCAL-00001" summary="committed by 22 June">
       <created>1498148371170</created>
@@ -328,30 +428,37 @@
       <option name="project" value="LOCAL" />
       <updated>1501420759688</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="committed by 31/07">
+      <created>1501519056131</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1501519056131</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35435000" />
+    <option name="totallyTimeSpent" value="48918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24596465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24596465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -367,8 +474,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24596465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -391,41 +498,14 @@
     <MESSAGE value="committed by 24th June" />
     <MESSAGE value="committed by 27th June" />
     <MESSAGE value="committed by 30/07" />
-    <option name="LAST_COMMIT_MESSAGE" value="committed by 30/07" />
+    <MESSAGE value="committed by 31/07" />
+    <option name="LAST_COMMIT_MESSAGE" value="committed by 31/07" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/location.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="147" lean-forward="false" selection-start-line="8" selection-start-column="147" selection-end-line="8" selection-end-column="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/flightsearchservice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/flightdataFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/flightsearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/flighttable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -663,13 +743,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/services/flightsdata.js" />
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="101" column="55" lean-forward="true" selection-start-line="101" selection-start-column="55" selection-end-line="101" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/report/files/app_scripts_services_regpageservice_js/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -681,13 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -712,48 +778,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/flightsearch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/flightsearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/location.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/location.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="391">
+          <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/flightSearchTable.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 7 0.0.0)/scripts/controllers/login.js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="112" column="62" lean-forward="false" selection-start-line="112" selection-start-column="62" selection-end-line="112" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/location.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/location.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding>
+            <marker date="1501416280984" expanded="true" signature="15:169" ph="/** @ngdoc function ...*/" />
+            <marker date="1501416280984" expanded="true" signature="288:1780" ph="{...}" />
+            <marker date="1501416280984" expanded="true" signature="493:562" ph="{...}" />
+            <marker date="1501416280984" expanded="true" signature="600:948" ph="{...}" />
+            <marker date="1501416280984" expanded="true" signature="705:794" ph="{...}" />
+            <marker date="1501416280984" expanded="true" signature="723:766" ph="{&quot;longitude&quot;: longi...}" />
+            <marker date="1501416280984" expanded="true" signature="817:916" ph="[...]" />
+            <marker date="1501416280984" expanded="true" signature="827:907" ph="{&quot;id&quot;: 101...}" />
+            <marker date="1501416280984" expanded="true" signature="993:1264" ph="{...}" />
+            <marker date="1501416280984" expanded="true" signature="1053:1256" ph="{...}" />
+            <marker date="1501416280984" expanded="true" signature="1149:1211" ph="{...}" />
+            <marker date="1501416280984" expanded="true" signature="1307:1563" ph="{...}" />
+            <marker date="1501416280984" expanded="true" signature="1366:1556" ph="{...}" />
+            <marker date="1501416280984" expanded="true" signature="1458:1514" ph="{...}" />
+            <marker date="1501416280984" expanded="true" signature="1639:1775" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/flightsearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <marker date="1501687881383" expanded="true" signature="15:177" ph="/** @ngdoc function ...*/" />
+            <marker date="1501687881383" expanded="true" signature="298:954" ph="{...}" />
+            <marker date="1501687881383" expanded="true" signature="341:387" ph="{...}" />
+            <marker date="1501687881383" expanded="true" signature="437:537" ph="{...}" />
+            <marker date="1501687881383" expanded="true" signature="616:669" ph="{...}" />
+            <marker date="1501687881383" expanded="true" signature="716:806" ph="{...}" />
+            <marker date="1501687881383" expanded="true" signature="860:950" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/flightsearch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="74" lean-forward="false" selection-start-line="0" selection-start-column="74" selection-end-line="0" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/assets/css/vendor/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-903">
+          <caret line="2822" column="16" lean-forward="false" selection-start-line="2822" selection-start-column="0" selection-end-line="2822" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/less/glyphicons.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1908">
+          <caret line="144" column="16" lean-forward="false" selection-start-line="144" selection-start-column="11" selection-end-line="144" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="73" column="30" lean-forward="true" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
           <folding />
         </state>
       </provider>
