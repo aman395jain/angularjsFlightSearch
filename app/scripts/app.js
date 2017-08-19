@@ -12,32 +12,35 @@ angular
   .module('myAssignmentTaskApp', [
     'ngCookies',
     'ngResource',
-    'ngRoute',
-    'uiGmapgoogle-maps'
+    'uiGmapgoogle-maps',
+    'ui.router'
   ])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
+  .config(function ($stateProvider,$urlRouterProvider) {
+    $urlRouterProvider.otherwise("/");
+    $stateProvider
+      .state('/', {
+        url: "/",
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
-        })
-      .when('/Login', {
+      })
+      .state('/Login', {
+        url: "/Login",
         templateUrl: 'views/login.html',
         controller: 'LoginCtrl',
-       })
-      .when('/register', {
+      })
+      .state('/register', {
+        url: "/register",
         templateUrl: 'views/register.html',
         controller: 'RegisterCtrl',
-       })
-      .when('/location', {
+      })
+      .state('/location', {
+        url: "/location",
         templateUrl: 'views/location.html',
         controller: 'LocationCtrl',
-       })
-      .when('/flightSearch', {
+      })
+      .state('/flightSearch', {
+        url: "/flightSearch",
         templateUrl: 'views/flightsearch.html',
         controller: 'FlightsearchCtrl',
       })
-      .otherwise({
-        redirectTo: '/'
-      });
   });

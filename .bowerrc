@@ -1,6 +1,6 @@
 {
   "registry": "http://bower.herokuapp.com",
-  "proxy": "http://noida-tz-ps2:80/",
-  "https-proxy": "http://noida-tz-ps2:80/",
+  "proxy": "",
+  "https-proxy": "",
   "strict-ssl": false
 }
