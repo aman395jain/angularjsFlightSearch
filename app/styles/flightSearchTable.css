@@ -8,9 +8,24 @@
   border: 1px solid black;
 }
 
+.flightTableHead {
+  width: 100%;
+}
+
 @media only screen and (max-width: 500px) {
   .flightTableth{
 
     border: 10px solid black;
   }
 }
+
+
+/*#flightTableFlightDataFactory {*/
+  /*margin: 25px 20px 14px 40px;*/
+/*}*/
+
+/*#fTextScope{*/
+  /*margin-bottom: 4px;*/
+/*}*/
+
+

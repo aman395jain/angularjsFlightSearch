@@ -6,11 +6,17 @@
 <!--
   <button download-flight-list="" ng-click="flightListDownload()">flight list</button>-->
  <!-- <button type="button" class="btn btn-default" ng-click="flightInfo()">Go Back</button><br/><br/>-->
+  <!--<div id="scopeHierachy">-->
+    <!--First Text:<input type="text" id="fTextScope" ng-model="fTextScope"><br>-->
+    <!--Second Text:<input type="text" id="sTextScope" ng-model="sTextScope"><br>-->
+  <!--</div>-->
+
+
   <table id="flightTableFlightDataFactory">
     <tr class="flightTableth">
-      <th class="flightTableth">Airport Name</th>
-      <th class="flightTableth">city code</th>
-      <th class="flightTableth">Airport_code</th>
+      <th class="flightTableth"><input type="text" class="flightTableHead" placeholder="Airport Name" ng-bind="airportNames"></th>
+      <th class="flightTableth"><input type="text" class="flightTableHead" placeholder="city code" ng-bind="cityCode"></th>
+      <th class="flightTableth"><input type="text" class="flightTableHead" placeholder="Airport Code" ng-bind="airportCode"></th>
     </tr>
     <tr class="flightTableth" ng-repeat="airport in airportName">
       <td class="flightTableth">{{airport.name|uppercase}}</td>
