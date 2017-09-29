@@ -6,20 +6,20 @@
 <!--
   <button download-flight-list="" ng-click="flightListDownload()">flight list</button>-->
  <!-- <button type="button" class="btn btn-default" ng-click="flightInfo()">Go Back</button><br/><br/>-->
-  <!--<div id="scopeHierachy">-->
-    <!--First Text:<input type="text" id="fTextScope" ng-model="fTextScope"><br>-->
-    <!--Second Text:<input type="text" id="sTextScope" ng-model="sTextScope"><br>-->
-  <!--</div>-->
+  <div id="scopeHierachy">
+    First Text:<input type="text" id="fTextScope" ng-model="fTextScope"><br>
+    Second Text:<input type="text" id="sTextScope" ng-model="sTextScope"><br>
+  </div>
 
 
   <table id="flightTableFlightDataFactory">
     <tr class="flightTableth">
-      <th class="flightTableth"><input type="text" class="flightTableHead" placeholder="Airport Name" ng-bind="airportNames"></th>
-      <th class="flightTableth"><input type="text" class="flightTableHead" placeholder="city code" ng-bind="cityCode"></th>
-      <th class="flightTableth"><input type="text" class="flightTableHead" placeholder="Airport Code" ng-bind="airportCode"></th>
+      <th class="flightTableth"><input type="text" class="flightTableHead" placeholder="Airport Name" ng-model="airportNames"></th>
+      <th class="flightTableth"><input type="text" class="flightTableHead" placeholder="city code" ng-model="cityCode"></th>
+      <th class="flightTableth"><input type="text" class="flightTableHead" placeholder="Airport Code" ng-model="airportCode"></th>
     </tr>
     <tr class="flightTableth" ng-repeat="airport in airportName">
-      <td class="flightTableth">{{airport.name|uppercase}}</td>
+      <td class="flightTableth">{{airport.name|uppercase|flightFilter:airportNames}}</td>
       <td class="flightTableth">{{airport.city|lowercase}}</td>
       <td class="flightTableth">{{airport.code|uppercase}}</td>
     </tr>
