@@ -15,6 +15,7 @@ angular.module('myAssignmentTaskApp')
         airportNameDir:'&'
 
       },
+      transclude: true,
       link: function postLink(scope, element, attrs) {
         flightSearchService.then(function (response) {
           scope.airportNameDir = response.flightAirportName;
