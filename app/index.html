@@ -5,6 +5,7 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
+    <base href="/">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/location.css">
     <link rel="stylesheet" href="styles/flightSearchTable.css">
+    <link rel="stylesheet" href="styles/validationForm.css">
     <!-- endbuild -->
   </head>
   <body ng-app="myAssignmentTaskApp">
@@ -35,7 +37,7 @@
               <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="#/">home</a>
+            <a class="navbar-brand" ui-sref="/">home</a>
           </div>
 
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
@@ -44,8 +46,8 @@
               <!--<li class="active"><a href="#/">Home</a></li>
               <li><a ng-href="#/about">About</a></li>
               <li><a ng-href="#/">Contact</a></li>-->
-              <a class="navbar-brand" href="#/register">register</a>
-              <a class="navbar-brand" href="#/Login">login</a>
+              <a class="navbar-brand" ui-sref='register'>register</a>
+              <a class="navbar-brand" ui-sref='Login'>login</a>
             </ul>
           </div>
         </div>
@@ -53,7 +55,7 @@
     </div>
 
     <div class="container">
-    <div ui-view></div>
+    <div ui-view class=“ng-cloak”></div>
     </div>
 
     <div class="footer">
@@ -97,6 +99,7 @@
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/location.js"></script>
     <script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
+    <!--<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCtH4HnBEdoHp8uc9HJadTtx2p4mb5L3f8"></script>-->
     <script src="bower_components/lodash/lodash.js"></script>
     <script src="bower_components/angular-simple-logger/dist/angular-simple-logger.min.js"></script>
     <script src="bower_components/angular-google-maps/dist/angular-google-maps.min.js"></script>
@@ -107,6 +110,11 @@
         <script src="scripts/filters/flightfilter.js"></script>
         <script src="scripts/directives/flighttable.js"></script>
         <script src="scripts/services/flightdataFactory.js"></script>
+        <script src="scripts/services/officeassignment.js"></script>
+        <script src="scripts/controllers/validationform.js"></script>
+        <script src="scripts/services/validationform.js"></script>
+        <script src="scripts/services/wallclock.js"></script>
+        <script src="scripts/services/datafromthirdpart.js"></script>
         <!-- endbuild -->
 </body>
 </html>

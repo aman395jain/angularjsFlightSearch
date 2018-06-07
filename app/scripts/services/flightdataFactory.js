@@ -9,41 +9,42 @@
  * created by Aman Jain(24/07/2017)
  */
 angular.module('myAssignmentTaskApp')
-  .factory('flightData', function ($http,$q) {
+  .factory('flightData', function ($http, $q) {
     // Service logic
     // ...
 
-    var flightsAirportName=[];
-    var flightAirportNameFromJson=[];
-    var flightAirportNameFromResponse=[];
-    var flightCityNameFromResponse=[];
-    var q= $q;
-    var promise= q.defer();
+    var flightsAirportName = [];
+    var flightAirportNameFromJson = [];
+    var flightAirportNameFromResponse = [];
+    var flightCityNameFromResponse = [];
+    var q = $q;
+    var promise = q.defer();
 
     // Public API here
     function flightsAirport() {
       return $http.get('../json/flight.json').then(function (response) {
-        for(var i=0;i<(response.data.trips.data.airport).length;i++){
+        for (var i = 0; i < (response.data.trips.data.airport).length; i++) {
           flightAirportNameFromResponse.push(response.data.trips.data.airport[i]);
         }
 
         console.log(flightAirportNameFromResponse)
-        return {flightsAirportName:flightAirportNameFromResponse};
+        return {flightsAirportName: flightAirportNameFromResponse};
       });
     }
 
     function getAirportcity() {
       return $http.get('../json/flight.json').then(function (response) {
-        for(var j=0;j<(response.data.trips.data.city).length;j++){
+        for (var j = 0; j < (response.data.trips.data.city).length; j++) {
           flightCityNameFromResponse.push(response.data.trips.data.city[j]);
         }
 
         console.log(flightCityNameFromResponse)
-        return {flightCityName:flightCityNameFromResponse};
+        return {flightCityName: flightCityNameFromResponse};
       });
     }
-return{
-  flightsAirport:flightsAirport(),
-    getAirportcity:getAirportcity()
+
+    return {
+      flightsAirport: flightsAirport(),
+      getAirportcity: getAirportcity()
     }
   });

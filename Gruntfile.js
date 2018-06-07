@@ -11,6 +11,7 @@ module.exports = function (grunt) {
 
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
+  grunt.loadNpmTasks('grunt-contrib-sass');
 
   // Automatically load required Grunt tasks
   require('jit-grunt')(grunt, {
@@ -30,7 +31,17 @@ module.exports = function (grunt) {
 
     // Project settings
     yeoman: appConfig,
-
+    sass: {
+      dist: {
+        files: [{
+          expand: true,
+          cwd: 'styles',
+          src: ['<%= yeoman.app %>/styles/{,*/}*.scss'],
+          dest: 'styles',
+          ext: '.css'
+        }]
+      }
+    },
     // Watches files for changes and runs tasks based on the changed files
     watch: {
       bower: {
@@ -220,7 +231,7 @@ module.exports = function (grunt) {
             }
           }
       }
-    }, 
+    },
 
     // Renames files for browser caching purposes
     filerev: {
@@ -478,6 +489,7 @@ module.exports = function (grunt) {
     'newer:jshint',
     'newer:jscs',
     'test',
-    'build'
+    'build',
+    'sass'
   ]);
 };

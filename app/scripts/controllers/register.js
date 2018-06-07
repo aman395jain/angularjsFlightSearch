@@ -8,11 +8,14 @@
  * Controller of the myAssignmentTaskApp
  */
 angular.module('myAssignmentTaskApp')
-  .controller('RegisterCtrl', function ($scope,regpageservice) {
+  .controller('RegisterCtrl', function ($scope,regpageservice,$state) {
     $scope.rUname='';
     $scope.rPword='';
     $scope.regPart=function(){
       $scope.regDataToLocalStorage=regpageservice.regService($scope.rUname,$scope.rPword);
+    }
+    $scope.toNextPage = function () {
+      $state.go('location');
     }
 
   });

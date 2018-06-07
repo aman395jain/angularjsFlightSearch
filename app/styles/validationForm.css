@@ -1,0 +1,11 @@
+.passenger-validation-form-name {
+  float: right;
+  margin-right: 50%;
+}
+.passenger-validation-form-name:after {
+  content: '';
+  padding-top: 5px;
+}
+.passenger-validation-form {
+  padding-top: 30px;
+}

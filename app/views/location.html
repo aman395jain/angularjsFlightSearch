@@ -13,15 +13,15 @@
         <input type="text" class="form-control" placeholder="enter your arrival city" id="arrCity" data-ng-model="inboundCity">
       </div>
 
-
-      <button type="submit" class="btn btn-default" ng-click="flightSearchToflightDetails(onboundCity,inboundCity)">Search your deal</button>
+<div class="alert alert-info" ng-show="loading"></div>
+      <button type="submit" class="btn btn-default" ng-cloak ng-click="flightSearchToflightDetails(onboundCity,inboundCity)">Search your deal</button>
     </form>
   </div>
 
 </div>
 
-<div id="mapSelfLocation" class="mapSelfLocaton" class="col-md-6">model
-<ui-gmap-google-map center='map.center' zoom='map.zoom'>
-  <ui-gmap-markers models="places" coords="'self'" icon="'icon'"></ui-gmap-markers>
-</ui-gmap-google-map>
+<div id="mapSelfLocation" class="mapSelfLocaton ng-cloak" class="col-md-6">model
+  <ui-gmap-google-map center='map.center' zoom='map.zoom'>
+    <ui-gmap-markers models="places" coords="'self'" icon="'icon'"></ui-gmap-markers>
+  </ui-gmap-google-map>
 </div>

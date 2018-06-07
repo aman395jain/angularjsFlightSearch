@@ -13,7 +13,6 @@ angular.module('myAssignmentTaskApp')
       restrict: 'E',
       scope:{
         airportNameDir:'&'
-
       },
       transclude: true,
       link: function postLink(scope, element, attrs) {

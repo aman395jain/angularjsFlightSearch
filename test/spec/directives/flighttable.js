@@ -5,7 +5,7 @@ describe('Directive: flightTable', function () {
   // load the directive's module
   beforeEach(module('myAssignmentTaskApp'));
 
-  var element,
+  var element,isolateScope,
     scope;
 
   beforeEach(inject(function ($rootScope) {
@@ -17,4 +17,10 @@ describe('Directive: flightTable', function () {
     element = $compile(element)(scope);
     expect(element.text()).toBe('this is the flightTable directive');
   }));
+  it('test flightSearchService return data', function () {
+    spyOn(isolateScope,flightSearchService);
+    isolateScope.$digest();
+    expect(isolateScope,flightSearchService).toBe(false);
+  });
+
 });

@@ -20,12 +20,17 @@
 }
 
 
-/*#flightTableFlightDataFactory {*/
-  /*margin: 25px 20px 14px 40px;*/
-/*}*/
+#flightTableFlightDataFactory {
+  margin: 25px 20px 14px 40px;
+}
 
-/*#fTextScope{*/
-  /*margin-bottom: 4px;*/
-/*}*/
+#fTextScope{
+  margin-bottom: 4px;
+}
+
+
+.nextPage {
+  float: right;
+}
 
 

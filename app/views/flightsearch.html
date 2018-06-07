@@ -1,28 +1,40 @@
-<button id="goBackButton" type="button" class="btn btn-default" ng-click="backTolocation()">Go Back</button><br/><br/>
-<div>
-  <p>list of flights</p>
-  <download-flight-list></download-flight-list><br>
-  <flight-table></flight-table><br>
-<!--
-  <button download-flight-list="" ng-click="flightListDownload()">flight list</button>-->
- <!-- <button type="button" class="btn btn-default" ng-click="flightInfo()">Go Back</button><br/><br/>-->
-  <div id="scopeHierachy">
-    First Text:<input type="text" id="fTextScope" ng-model="fTextScope"><br>
-    Second Text:<input type="text" id="sTextScope" ng-model="sTextScope"><br>
+<div data-page-id = 'fareQuote'>
+  <button id="goBackButton" type="button" class="btn btn-default" ng-click="backTolocation()">Go Back</button>
+  <button data-type="button" class="btn btn-default" ng-click="toFormPage()" ng-class="nextPage">Next Page</button>
+  <br/><br/>
+  <div>
+    <p>list of flights</p>
+    <download-flight-list></download-flight-list>
+    <br>
+    <flight-table></flight-table>
+    <br>
+    <!--
+      <button download-flight-list="" ng-click="flightListDownload()">flight list</button>-->
+    <!-- <button type="button" class="btn btn-default" ng-click="flightInfo()">Go Back</button><br/><br/>-->
+    <div id="scopeHierachy">
+      First Text:<input type="text" data-id="fTextScope" ng-model="fTextScope"><br>
+      Second Text:<input type="text" id="sTextScope" ng-model="sTextScope"><br>
+    </div>
+
+    <!--<div ng-hide='xyz.$resolved'>
+      <i class=“icon-loader spin”>Loading…</i>
+      <div>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <table id="flightTableFlightDataFactory">
+      <tr class="flightTableth">
+        <th class="flightTableth"><input type="text" class="flightTableHead" placeholder="Airport Name"
+                                         ng-model="airportNames"></th>
+        <th class="flightTableth"><input type="text" class="flightTableHead" placeholder="city code"
+                                         ng-model="cityCode"></th>
+        <th class="flightTableth"><input type="text" class="flightTableHead" placeholder="Airport Code"
+                                         ng-model="airportCode"></th>
+      </tr>
+      <tr class="flightTableth" ng-repeat="airport in airportName">
+        <td class="flightTableth">{{airport.name|uppercase|flightFilter:airportNames}}</td>
+        <td class="flightTableth">{{airport.city|lowercase|cityFilter:cityCode}}</td>
+        <td class="flightTableth">{{airport.code|uppercase|airportCodeFilter:airportCode}}</td>
+      </tr>
+    </table>
+
   </div>
-
-
-  <table id="flightTableFlightDataFactory">
-    <tr class="flightTableth">
-      <th class="flightTableth"><input type="text" class="flightTableHead" placeholder="Airport Name" ng-model="airportNames"></th>
-      <th class="flightTableth"><input type="text" class="flightTableHead" placeholder="city code" ng-model="cityCode"></th>
-      <th class="flightTableth"><input type="text" class="flightTableHead" placeholder="Airport Code" ng-model="airportCode"></th>
-    </tr>
-    <tr class="flightTableth" ng-repeat="airport in airportName">
-      <td class="flightTableth">{{airport.name|uppercase|flightFilter:airportNames}}</td>
-      <td class="flightTableth">{{airport.city|lowercase}}</td>
-      <td class="flightTableth">{{airport.code|uppercase}}</td>
-    </tr>
-  </table>
-
 </div>
