@@ -7,7 +7,10 @@
     "angular-cookies": "^1.4.0",
     "angular-resource": "^1.4.0",
     "angular-route": "^1.4.0",
-    "angular-ui-router": "~0.2.18"
+    "angular-ui-router": "~0.2.18",
+    "angularjs-datepicker": "^2.1.23",
+    "angular-animate": "^1.5.3",
+    "angular-bootstrap": "*"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.0"

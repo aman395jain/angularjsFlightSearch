@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb7e8343-610b-4170-837b-3828cde0adac" name="Default" comment="committed by 13/08">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="$PROJECT_DIR$/.bowerrc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/flightsearch.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/flightsearch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/flighttable.js" afterPath="$PROJECT_DIR$/app/scripts/directives/flighttable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/filters/flightfilter.js" afterPath="$PROJECT_DIR$/app/scripts/filters/flightfilter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/flightSearchTable.css" afterPath="$PROJECT_DIR$/app/styles/flightSearchTable.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/main.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/location.css" afterPath="$PROJECT_DIR$/app/styles/location.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/validationForm.css" afterPath="$PROJECT_DIR$/app/styles/validationForm.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/karma.conf.js" afterPath="$PROJECT_DIR$/test/karma.conf.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,101 +27,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="flightfilter.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/scripts/filters/flightfilter.js">
+      <file leaf-file-name="location.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/location.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="0">
+              <caret line="85" column="69" lean-forward="false" selection-start-line="85" selection-start-column="69" selection-end-line="85" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginpageservice.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/services/loginpageservice.js">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="22" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regpageservice.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/services/regpageservice.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flight.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/json/flight.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flightdataFactory.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/services/flightdataFactory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flightsearch.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/flightsearch.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flightsearch.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/flightsearch.js">
+      <file leaf-file-name="flightcarousel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/directives/flightcarousel.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+              <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flighttable.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/flighttable.html">
+      <file leaf-file-name="flightcarousel.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/flightcarousel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="56" lean-forward="false" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+            <state relative-caret-position="357">
+              <caret line="21" column="132" lean-forward="false" selection-start-line="21" selection-start-column="132" selection-end-line="21" selection-end-column="132" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flighttable.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/directives/flighttable.js">
+      <file leaf-file-name="location.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/location.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="458">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".bowerrc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.bowerrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -126,42 +127,43 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SCSS File" />
         <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$ap</find>
-      <find>$location.path(&quot;/location&quot;</find>
-      <find>path</find>
-      <find>backTolocation</find>
-      <find>app.js</find>
-      <find>glyphicon glyphicon-heart</find>
-      <find>glyphicon-heart</find>
-      <find>\e005</find>
-      <find>.glyphicon-hea</find>
-      <find>.glyphicon-plane</find>
-      <find>plane</find>
-      <find>Glyphicons Halflings</find>
-      <find>e108</find>
-      <find>plan</find>
-      <find>grunt</find>
-      <find>$stateProvider</find>
-      <find>class=&quot;container&quot;</find>
-      <find>'Allo, 'Allo!</find>
-      <find>state</find>
-      <find>noida-tz-ps2:80</find>
-      <find>exampleInputUname</find>
-      <find>$http</find>
-      <find>flightTableth</find>
-      <find>parse</find>
-      <find>JSON.pa</find>
-      <find>flight.jso</find>
-      <find>JSON</find>
-      <find>json.s</find>
-      <find>json.pa</find>
-      <find>Lo</find>
+      <find>dest</find>
+      <find>ui-sref</find>
+      <find>angular.merge</find>
+      <find>ui-s</find>
+      <find>passenger-validation-form-name</find>
+      <find>backToForm</find>
+      <find>arrCity</find>
+      <find>mapSelfLocaton</find>
+      <find>nextPage</find>
+      <find>header</find>
+      <find>mapSelfLocation</find>
+      <find>formValidation.passengerDetailPage</find>
+      <find>passengerdetailpage.html</find>
+      <find>flightSearchService</find>
+      <find>Back To Passanger Form</find>
+      <find>maps.googleapis.com</find>
+      <find>userAge</find>
+      <find>angular@&gt;=1.2.0</find>
+      <find>1.5.3</find>
+      <find>fa fa-lg fa-calendar</find>
+      <find>hideCalendar()</find>
+      <find>anima</find>
+      <find>1.7.1</find>
+      <find>loader</find>
+      <find>flightSearchToflightDetails</find>
+      <find>resource</find>
+      <find>dataFromThirdPart</find>
+      <find>flightSearchToflightDetails(onboundCity,inboundCity)</find>
+      <find>Hello You are on the board of GoFlights</find>
+      <find>http://bower.herokuapp.com</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,23 +184,49 @@
         <option value="$PROJECT_DIR$/app/views/flighttable.html" />
         <option value="$PROJECT_DIR$/app/json/flight.json" />
         <option value="$PROJECT_DIR$/app/scripts/services/flightdata.js" />
+        <option value="$PROJECT_DIR$/test/spec/filters/flightfilter.js" />
+        <option value="$PROJECT_DIR$/test/karma.conf.js" />
+        <option value="$PROJECT_DIR$/test/spec/directives/flighttable.js" />
+        <option value="$PROJECT_DIR$/app/scripts/services/flightdataFactory.js" />
+        <option value="$PROJECT_DIR$/app/scripts/filters/flightfilter.js" />
+        <option value="$PROJECT_DIR$/app/styles/flightSearchTable.css" />
+        <option value="$PROJECT_DIR$/app/scripts/directives/flighttable.js" />
+        <option value="$PROJECT_DIR$/app/views/register.html" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/register.js" />
+        <option value="$PROJECT_DIR$/app/styles/validationForm.scss" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/bower_components/bootstrap/less/forms.less" />
+        <option value="$PROJECT_DIR$/app/scripts/services/wallclock.js" />
         <option value="$PROJECT_DIR$/app/views/location.html" />
         <option value="$PROJECT_DIR$/app/scripts/services/flightsearchservice.js" />
-        <option value="$PROJECT_DIR$/app/scripts/services/flightdataFactory.js" />
+        <option value="$PROJECT_DIR$/app/views/flightsearch.html" />
+        <option value="$PROJECT_DIR$/app/scripts/services/datafromthirdpart.js" />
+        <option value="$PROJECT_DIR$/app/views/passengerdetailpage.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/location.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/validationform.js" />
+        <option value="$PROJECT_DIR$/bower_components/angular-animate/angular-animate.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/styles/validationForm.css" />
+        <option value="$PROJECT_DIR$/app/views/validationform.html" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/flightsearch.js" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/.bowerrc" />
+        <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/styles/location.css" />
         <option value="$PROJECT_DIR$/app/views/main.html" />
-        <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/.bowerrc" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
-        <option value="$PROJECT_DIR$/app/styles/flightSearchTable.css" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/flightsearch.js" />
-        <option value="$PROJECT_DIR$/app/views/flightsearch.html" />
-        <option value="$PROJECT_DIR$/app/scripts/directives/flighttable.js" />
-        <option value="$PROJECT_DIR$/app/scripts/filters/flightfilter.js" />
+        <option value="$PROJECT_DIR$/app/scripts/directives/flightcarousel.js" />
+        <option value="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/bower_components/bootstrap/less/carousel.less" />
+        <option value="$PROJECT_DIR$/app/views/flightcarousel.html" />
       </list>
     </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <exe-path>$USER_HOME$/AppData/Roaming/npm/bower.cmd</exe-path>
+    <config-path>$PROJECT_DIR$/bower.json</config-path>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER">
     <gruntfile path="$PROJECT_DIR$/Gruntfile.js" />
@@ -228,6 +256,22 @@
     <option name="width" value="1303" />
     <option name="height" value="780" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -243,8 +287,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,7 +303,7 @@
               <item name="angularjsFlightSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="angularjsFlightSearch" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="angularjsFlightSearch" type="b2602c69:ProjectViewProjectNode" />
@@ -281,7 +323,27 @@
               <item name="angularjsFlightSearch" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="directives" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angularjsFlightSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angularjsFlightSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="filters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angularjsFlightSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angularjsFlightSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angularjsFlightSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angularjsFlightSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="main.scss" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="angularjsFlightSearch" type="b2602c69:ProjectViewProjectNode" />
@@ -289,20 +351,40 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="angularjsFlightSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angularjsFlightSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angularjsFlightSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angularjsFlightSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angularjsFlightSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angularjsFlightSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="directives" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/angular2/flightAssignment" />
+    <property name="last_opened_file_path" value="F:/HTML5/html5up-editorial" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="re&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/scripts/services/regpageservice.js&#10;lo&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/scripts/controllers/login.js&#10;.json&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/json/flight.json&#10;reg&#9;null&#9;null&#10;LO&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/scripts/controllers/login.js&#10;inde&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/index.html&#10;bower&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/bower.json&#10;pac&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/package.json&#10;fli&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/scripts/services/flightsearchservice.js&#10;route&#9;null&#9;null&#10;packa&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/package.json&#10;app&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/scripts/app.js" />
+    <property name="SearchEverywhereHistoryKey" value="bower&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/bower.json&#10;app&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/scripts/app.js&#10;angular-animate.js&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/bower_components/angular-animate/angular-animate.js&#10;pack&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/package.json&#10;date&#9;null&#9;null&#10;validationform.html&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/views/validationform.html&#10;validationform.js&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/scripts/services/validationform.js&#10;data&#9;null&#9;null&#10;flightsearch.html&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/views/flightsearch.html&#10;passengerdetailpage.html&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/views/passengerdetailpage.html&#10;index&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/index.html&#10;login.html&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/views/login.html&#10;passengerdetailpage&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/views/passengerdetailpage.html&#10;form.l&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/bower_components/bootstrap/less/forms.less&#10;gru&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/bower_components/bootstrap/Gruntfile.js&#10;bo&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/bower.json&#10;login&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/views/login.html&#10;f&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/scripts/filters/flightfilter.js&#10;tab&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/scripts/directives/flighttable.js&#10;inde&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/index.html&#10;flighttable.html&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/views/flighttable.html&#10;filter&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/scripts/filters/flightfilter.js&#10;fli*.json&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/json/flight.json&#10;ind&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/index.html&#10;main&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/views/main.html&#10;flightfilter.js&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/scripts/filters/flightfilter.js&#10;flightSearchService.js&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/scripts/services/flightsearchservice.js&#10;flight.json&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/json/flight.json&#10;flightta&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/views/flighttable.html&#10;conf&#9;null&#9;null&#10;FSS&#9;null&#9;null&#10;FD&#9;null&#9;null&#10;re&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/scripts/services/regpageservice.js&#10;lo&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/scripts/controllers/login.js&#10;.json&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/json/flight.json&#10;reg&#9;null&#9;null&#10;LO&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/scripts/controllers/login.js&#10;pac&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/package.json&#10;fli&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/app/scripts/services/flightsearchservice.js&#10;route&#9;null&#9;null&#10;packa&#9;FILE&#9;file://F:/angularJs/angularjsFlightSearch/package.json" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -322,6 +404,10 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.flightsearch.html">
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -388,9 +474,23 @@
       <method />
     </configuration>
     <configuration name="flightsearch.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/angularAssignment2/app/views/flightsearch.html" />
+    <configuration name="test" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.flightsearch.html" />
+      <item index="1" class="java.lang.String" itemvalue="npm.test" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.flightsearch.html" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="npm.test" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.flightsearch.html" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +546,142 @@
       <workItem from="1507456741746" duration="1534000" />
       <workItem from="1507458565572" duration="1770000" />
       <workItem from="1507460488743" duration="1732000" />
-      <workItem from="1507462305392" duration="1590000" />
+      <workItem from="1507462305392" duration="1782000" />
+      <workItem from="1507733286319" duration="1656000" />
+      <workItem from="1507823099994" duration="1783000" />
+      <workItem from="1508060964344" duration="1339000" />
+      <workItem from="1508062773779" duration="1605000" />
+      <workItem from="1508064594342" duration="311000" />
+      <workItem from="1508769713317" duration="1758000" />
+      <workItem from="1508771529546" duration="1591000" />
+      <workItem from="1509178199405" duration="619000" />
+      <workItem from="1509212485411" duration="1297000" />
+      <workItem from="1509374883906" duration="640000" />
+      <workItem from="1509636684248" duration="656000" />
+      <workItem from="1509642523622" duration="1439000" />
+      <workItem from="1509980555546" duration="588000" />
+      <workItem from="1509988674270" duration="1667000" />
+      <workItem from="1510153586270" duration="1685000" />
+      <workItem from="1510155371524" duration="1309000" />
+      <workItem from="1510160411117" duration="693000" />
+      <workItem from="1511975540118" duration="1215000" />
+      <workItem from="1512060803872" duration="1523000" />
+      <workItem from="1512062638126" duration="1209000" />
+      <workItem from="1512410777879" duration="1749000" />
+      <workItem from="1512573533530" duration="32000" />
+      <workItem from="1512578766100" duration="1373000" />
+      <workItem from="1512580322928" duration="1180000" />
+      <workItem from="1512582747863" duration="1357000" />
+      <workItem from="1512668797786" duration="1217000" />
+      <workItem from="1513006116355" duration="20000" />
+      <workItem from="1513012390480" duration="844000" />
+      <workItem from="1513013581914" duration="647000" />
+      <workItem from="1513015478706" duration="52000" />
+      <workItem from="1513270003010" duration="109000" />
+      <workItem from="1513270146956" duration="600000" />
+      <workItem from="1515000076740" duration="1592000" />
+      <workItem from="1515001703857" duration="1435000" />
+      <workItem from="1515086675259" duration="1394000" />
+      <workItem from="1515088155445" duration="9000" />
+      <workItem from="1520269112531" duration="1193000" />
+      <workItem from="1520270537302" duration="890000" />
+      <workItem from="1523984715967" duration="1441000" />
+      <workItem from="1523986376952" duration="1189000" />
+      <workItem from="1524156808122" duration="690000" />
+      <workItem from="1524581092524" duration="732000" />
+      <workItem from="1524667662859" duration="1732000" />
+      <workItem from="1524669512305" duration="1743000" />
+      <workItem from="1524676722436" duration="1750000" />
+      <workItem from="1524754369858" duration="1598000" />
+      <workItem from="1524756230755" duration="844000" />
+      <workItem from="1525193938410" duration="1636000" />
+      <workItem from="1525196284559" duration="596000" />
+      <workItem from="1525273398345" duration="1678000" />
+      <workItem from="1525280068046" duration="1086000" />
+      <workItem from="1525282501013" duration="1372000" />
+      <workItem from="1525284331215" duration="682000" />
+      <workItem from="1525360764857" duration="1338000" />
+      <workItem from="1525508833967" duration="96000" />
+      <workItem from="1525602805378" duration="716000" />
+      <workItem from="1525605827529" duration="371000" />
+      <workItem from="1525713434226" duration="1582000" />
+      <workItem from="1525715258286" duration="1794000" />
+      <workItem from="1525717100766" duration="519000" />
+      <workItem from="1525791040985" duration="1728000" />
+      <workItem from="1525792850138" duration="1366000" />
+      <workItem from="1525798231692" duration="1753000" />
+      <workItem from="1525800114777" duration="1629000" />
+      <workItem from="1525802707696" duration="935000" />
+      <workItem from="1525888434595" duration="1502000" />
+      <workItem from="1525890292121" duration="1752000" />
+      <workItem from="1525892109796" duration="1325000" />
+      <workItem from="1525964635033" duration="205000" />
+      <workItem from="1525972606687" duration="1227000" />
+      <workItem from="1525973973110" duration="1734000" />
+      <workItem from="1525975995309" duration="1114000" />
+      <workItem from="1526052022631" duration="604000" />
+      <workItem from="1526396851557" duration="19000" />
+      <workItem from="1526490971833" duration="1231000" />
+      <workItem from="1526492338960" duration="790000" />
+      <workItem from="1526494982037" duration="1012000" />
+      <workItem from="1526569193894" duration="317000" />
+      <workItem from="1526582715212" duration="140000" />
+      <workItem from="1526582927224" duration="883000" />
+      <workItem from="1526662501904" duration="1116000" />
+      <workItem from="1526922913604" duration="1040000" />
+      <workItem from="1526925042507" duration="1759000" />
+      <workItem from="1527095336496" duration="20000" />
+      <workItem from="1527779093005" duration="1649000" />
+      <workItem from="1527781176627" duration="1736000" />
+      <workItem from="1527785858932" duration="1748000" />
+      <workItem from="1527787659028" duration="884000" />
+      <workItem from="1527789493159" duration="589000" />
+      <workItem from="1527791324716" duration="1004000" />
+      <workItem from="1527944792598" duration="1730000" />
+      <workItem from="1527947293555" duration="1743000" />
+      <workItem from="1527949105713" duration="915000" />
+      <workItem from="1528029125580" duration="592000" />
+      <workItem from="1528122740141" duration="1844000" />
+      <workItem from="1528124737122" duration="1720000" />
+      <workItem from="1528132389401" duration="695000" />
+      <workItem from="1528134241615" duration="1456000" />
+      <workItem from="1528136545799" duration="1762000" />
+      <workItem from="1528138362378" duration="899000" />
+      <workItem from="1528210103952" duration="1699000" />
+      <workItem from="1528211890220" duration="1472000" />
+      <workItem from="1528217675008" duration="1589000" />
+      <workItem from="1528219896782" duration="1769000" />
+      <workItem from="1528221740274" duration="1772000" />
+      <workItem from="1528223642226" duration="218000" />
+      <workItem from="1528296019608" duration="1724000" />
+      <workItem from="1528297844876" duration="1085000" />
+      <workItem from="1528304941924" duration="1694000" />
+      <workItem from="1528306759456" duration="1490000" />
+      <workItem from="1528308654057" duration="1666000" />
+      <workItem from="1528382849328" duration="1498000" />
+      <workItem from="1528384728636" duration="1039000" />
+      <workItem from="1528391612408" duration="1211000" />
+      <workItem from="1528538194780" duration="171000" />
+      <workItem from="1528728455701" duration="1571000" />
+      <workItem from="1528730122608" duration="2085000" />
+      <workItem from="1528732338556" duration="1692000" />
+      <workItem from="1528736913008" duration="2062000" />
+      <workItem from="1528739352234" duration="1512000" />
+      <workItem from="1528814483901" duration="1663000" />
+      <workItem from="1528816517431" duration="1435000" />
+      <workItem from="1528823126503" duration="2089000" />
+      <workItem from="1528825635235" duration="869000" />
+      <workItem from="1528987475097" duration="100000" />
+      <workItem from="1529518043632" duration="1076000" />
+      <workItem from="1529688693120" duration="1610000" />
+      <workItem from="1529691446015" duration="891000" />
+      <workItem from="1529726833246" duration="901000" />
+      <workItem from="1529946179514" duration="1729000" />
+      <workItem from="1529948135948" duration="1380000" />
+      <workItem from="1530110700819" duration="1715000" />
+      <workItem from="1530112667573" duration="2228000" />
+      <workItem from="1530119563926" duration="969000" />
+      <workItem from="1530207860055" duration="1574000" />
     </task>
     <task id="LOCAL-00001" summary="committed by 22 June">
       <created>1498148371170</created>
@@ -560,25 +795,39 @@
       <option name="project" value="LOCAL" />
       <updated>1506697705697</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="committed on 08/10">
+      <created>1507463977883</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1507463977883</updated>
+    </task>
+    <task id="LOCAL-00018" summary="committed by Aman 07/06/2018">
+      <created>1528392179510</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1528392179510</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95115000" />
+    <option name="totallyTimeSpent" value="256183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24524158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24479167" sideWeight="0.4931973" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24479167" sideWeight="0.50680274" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61904764" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -586,8 +835,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4140753" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282313" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -598,14 +848,15 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4140753" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24524158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61904764" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24479167" sideWeight="0.4931973" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24479167" sideWeight="0.50680274" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282313" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -630,87 +881,203 @@
     <MESSAGE value="committed by Aman 19/08" />
     <MESSAGE value="committed by 19/09" />
     <MESSAGE value="committed by 29/09" />
-    <option name="LAST_COMMIT_MESSAGE" value="committed by 29/09" />
+    <MESSAGE value="committed on 08/10" />
+    <MESSAGE value="committed by Aman 07/06/2018" />
+    <option name="LAST_COMMIT_MESSAGE" value="committed by Aman 07/06/2018" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/flightsearch.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="66" lean-forward="false" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+        <state relative-caret-position="170">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/flightsearchservice.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/wallclock.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="221">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/flightSearchTable.css">
+    <entry file="file://$PROJECT_DIR$/bower_components/angular-ui-router/release/angular-ui-router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/flightsearch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/flightsearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="66" lean-forward="false" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/flightsearchservice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="204">
+          <caret line="2894" column="85" lean-forward="false" selection-start-line="2894" selection-start-column="85" selection-end-line="2894" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/flightSearchTable.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="527">
+          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/flightsearch.html">
+    <entry file="file://$PROJECT_DIR$/bower_components/angular-google-maps/dist/angular-google-maps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="203">
+          <caret line="3306" column="13" lean-forward="true" selection-start-line="3306" selection-start-column="13" selection-end-line="3306" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/downloadflightlistcontroller.js">
+    <entry file="file://$PROJECT_DIR$/bower_components/angular-route/angular-route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="371" column="15" lean-forward="false" selection-start-line="371" selection-start-column="15" selection-end-line="371" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/flightsearchservice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular-resource/angular-resource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="702" column="18" lean-forward="false" selection-start-line="702" selection-start-column="18" selection-end-line="702" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/validationform.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="2016" column="0" lean-forward="false" selection-start-line="2016" selection-start-column="0" selection-end-line="2016" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/spec/directives/datepicker.js" />
+    <entry file="file://$PROJECT_DIR$/test/spec/directives/downloadflightlist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/datepicker.js" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angularjs-datepicker/src/js/angular-datepicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11135">
+          <caret line="655" column="38" lean-forward="false" selection-start-line="655" selection-start-column="38" selection-end-line="655" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular/.bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/angular-animate/angular-animate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20621">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular-animate/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular-animate/angular-animate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="3335" column="20" lean-forward="false" selection-start-line="3335" selection-start-column="20" selection-end-line="3335" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/validationForm.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="66" lean-forward="false" selection-start-line="117" selection-start-column="66" selection-end-line="117" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/downloadflightlist.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="170">
+          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/flighttable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/filters/flightfilter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/passengerdetailpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/validationform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/flighttable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/flightsearch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -721,280 +1088,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/flightsdata.js" />
-    <entry file="file://$PROJECT_DIR$/report/files/app_scripts_services_regpageservice_js/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="124" column="61" lean-forward="true" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/location.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 7 0.0.0)/scripts/controllers/login.js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="112" column="62" lean-forward="false" selection-start-line="112" selection-start-column="62" selection-end-line="112" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/location.css">
+    <entry file="file://$PROJECT_DIR$/app/views/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/assets/css/vendor/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-903">
-          <caret line="2822" column="16" lean-forward="false" selection-start-line="2822" selection-start-column="0" selection-end-line="2822" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="0" column="59348" lean-forward="false" selection-start-line="0" selection-start-column="59348" selection-end-line="0" selection-end-column="59348" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="299" column="11" lean-forward="true" selection-start-line="299" selection-start-column="6" selection-end-line="299" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8551">
-          <caret line="508" column="15" lean-forward="false" selection-start-line="508" selection-start-column="15" selection-end-line="508" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/aeroplane.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/yeoman.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="79" lean-forward="false" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/less/glyphicons.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
-          <caret line="144" column="62" lean-forward="false" selection-start-line="144" selection-start-column="58" selection-end-line="144" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2584">
-          <caret line="152" column="48" lean-forward="false" selection-start-line="152" selection-start-column="48" selection-end-line="152" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular-route/angular-route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="2" lean-forward="false" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/angular-ui-router/lib/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1032">
-          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/directives/viewDirective.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="412" column="26" lean-forward="true" selection-start-line="412" selection-start-column="26" selection-end-line="412" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="77" column="21" lean-forward="false" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+          <caret line="14" column="70" lean-forward="false" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="68" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/flightsearchservice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="2016" column="0" lean-forward="false" selection-start-line="2016" selection-start-column="0" selection-end-line="2016" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/location.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/flightSearchTable.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329035">
-          <caret line="19355" column="0" lean-forward="false" selection-start-line="19355" selection-start-column="0" selection-end-line="19355" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/json/flight.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/flighttable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="56" lean-forward="false" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/flighttable.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/flightsearch.html">
+    <entry file="file://$PROJECT_DIR$/coverage/PhantomJS 2.1.1 (Windows 8 0.0.0)/scripts/controllers/location.js.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="46" />
-          <folding />
+        <state relative-caret-position="194">
+          <caret line="309" column="65" lean-forward="false" selection-start-line="309" selection-start-column="65" selection-end-line="309" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/flightsearch.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="29" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/datafromthirdpart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/validationform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="69" lean-forward="false" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/location.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="89" lean-forward="false" selection-start-line="16" selection-start-column="89" selection-end-line="16" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="6293" column="8" lean-forward="false" selection-start-line="6293" selection-start-column="8" selection-end-line="6293" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/location.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="85" column="69" lean-forward="false" selection-start-line="85" selection-start-column="69" selection-end-line="85" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/flightcarousel.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/flightdataFactory.js">
+    <entry file="file://$PROJECT_DIR$/app/styles/location.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        <state relative-caret-position="458">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/login.js">
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        <state relative-caret-position="313">
+          <caret line="6331" column="14" lean-forward="true" selection-start-line="6331" selection-start-column="14" selection-end-line="6331" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/loginpageservice.js">
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/less/carousel.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="245">
+          <caret line="102" column="37" lean-forward="true" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/regpageservice.js">
+    <entry file="file://$PROJECT_DIR$/app/views/flightcarousel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/filters/flightfilter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="357">
+          <caret line="21" column="132" lean-forward="false" selection-start-line="21" selection-start-column="132" selection-end-line="21" selection-end-column="132" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

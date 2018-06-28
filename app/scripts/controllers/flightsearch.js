@@ -29,9 +29,9 @@ angular.module('myAssignmentTaskApp')
       console.log($scope.airportName)
       testObject1 = angular.copy($scope.airportName[0]); //angular.copy is a deep copy
       testObject2 = angular.copy(testObject1);
-      // console.log(testObject1)
-      // console.log(testObject2)
-      console.log(testObject1.name === testObject2);
+      console.log(testObject1)
+      console.log(testObject2)
+      console.log(testObject1.name === testObject2.name);
       testObject2.PinCode = {};
       testObject2.PinCode.streat = 'xyx'
       angular.extend(dseObj,testObject1,testObject2); //shallow copy

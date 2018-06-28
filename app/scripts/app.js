@@ -13,11 +13,17 @@ angular
     'ngCookies',
     'ngResource',
     'uiGmapgoogle-maps',
-    'ui.router'
+    'ui.router',
+    '720kb.datepicker',
+    'ngAnimate',
+    'ui.bootstrap'
   ])
+  // .run(function ($templateCache) {
+  //   $templateCache.put('views/flightcarousel.html','this is flightcarousel directive template')
+  // })
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     $urlRouterProvider.otherwise("/");
-    $locationProvider.html5Mode(true);
+  //  $locationProvider.html5Mode(true);
     var passengerDetails = {}
     // noinspection JSAnnotator
     $stateProvider
