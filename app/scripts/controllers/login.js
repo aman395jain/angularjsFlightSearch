@@ -8,7 +8,7 @@
  * Controller of the myAssignmentTaskApp
  */
 angular.module('myAssignmentTaskApp')
-  .controller('LoginCtrl', function ($scope,loginpageservice,$location) {
+  .controller('LoginCtrl', function ($scope,loginpageservice,$location,sharedService, flightData) {
     $scope.lUname='';
     $scope.lPass='';
     $scope.loginDataToCompare='';
@@ -19,6 +19,15 @@ angular.module('myAssignmentTaskApp')
       } else {
         $location.path("/location");
       }
+      //
     }
+    sharedService.shareData('aman');
+    //
+    // console.log(sharedService.getFirstName())
+    // sharedService.myObj()
+    // console.log(flightData)
+    // console.log(sharedService.myObjDate)
+    //
+    // console.log(flightData.getAirportcity)
 
   });

@@ -18,4 +18,5 @@ angular.module('myAssignmentTaskApp')
       $state.go('location');
     }
 
+
   });

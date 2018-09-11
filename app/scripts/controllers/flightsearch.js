@@ -8,7 +8,7 @@
  * Controller of the myAssignmentTaskApp
  */
 angular.module('myAssignmentTaskApp')
-  .controller('FlightsearchCtrl', function ($scope,$location,flightSearchService,$state) {
+  .controller('FlightsearchCtrl', function ($scope,$location,flightSearchService,$state,sharedService) {
     $scope.nextPage = 'nextPage';   //to check the ng-class
     var testObject1 = {};
     var testObject2 = {};
@@ -81,6 +81,8 @@ angular.module('myAssignmentTaskApp')
     //   $scope.sTextScope = $scope.fTextScope;
     //
     // })
+
+    console.log(sharedService.getFirstName())
 
 
   });

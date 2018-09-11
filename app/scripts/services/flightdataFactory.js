@@ -8,8 +8,7 @@
  * Factory in the myAssignmentTaskApp.
  * created by Aman Jain(24/07/2017)
  */
-angular.module('myAssignmentTaskApp')
-  .factory('flightData', function ($http, $q) {
+var flightData =  function ($http, $q) {
     // Service logic
     // ...
 
@@ -40,6 +39,7 @@ angular.module('myAssignmentTaskApp')
 
         console.log(flightCityNameFromResponse)
         return {flightCityName: flightCityNameFromResponse};
+      console.log(new Date())
       });
     }
 
@@ -47,4 +47,7 @@ angular.module('myAssignmentTaskApp')
       flightsAirport: flightsAirport(),
       getAirportcity: getAirportcity()
     }
-  });
+  }
+flightData.prototype.flightDataObj = new Date();
+ angular.module('myAssignmentTaskApp')
+  .factory('flightData', flightData)

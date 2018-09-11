@@ -15,12 +15,42 @@ angular
     'uiGmapgoogle-maps',
     'ui.router',
     '720kb.datepicker',
-    'ngAnimate',
     'ui.bootstrap'
   ])
-  // .run(function ($templateCache) {
+
+    // run part is executed after config part and all services instance and constants are injected here
+  // .run(function ($templateCache) {'ngAnimate',
   //   $templateCache.put('views/flightcarousel.html','this is flightcarousel directive template')
   // })
+
+  .run(['$http', 'SessionService', function ($http, configs, SessionService) {
+    $http.get('https://api.github.com/users/naorye/repos').then(function (ret) {
+      console.log('dgghsjakL')
+    });
+  }])
+
+  // for spin loader
+
+  .run(['$rootScope', '$state', function ($rootScope, $state) {
+
+    $rootScope.$on('$stateChangeStart', function () {
+      $rootScope.stateIsLoading = true;
+    });
+
+
+    $rootScope.$on('$stateChangeSuccess', function () {
+      $rootScope.stateIsLoading = false;
+    });
+
+  }])
+
+
+  .config(function ($httpProvider) {
+    $httpProvider.interceptors.push('sessionInjector')
+
+  })
+
+  // config part executed before the run part so provider and constants are injected here
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     $urlRouterProvider.otherwise("/");
   //  $locationProvider.html5Mode(true);
@@ -60,14 +90,15 @@ angular
       .state('formValidation' , {
         url: "/formValidation",
         templateUrl: 'views/validationform.html',
-        controller: 'ValidationformCtrl'
-      })
-      .state('formValidation.passengerDetailPage', {
-        url: "/passengerDetailPage",
-        templateUrl: 'views/passengerdetailpage.html',
         controller: 'ValidationformCtrl',
         resolve: {
 
         }
+      })
+      .state('formValidation.passengerDetailPage', {
+        url: "/passengerDetailPage/:passengerDetails",
+        templateUrl: 'views/passengerdetailpage.html',
+        controller: 'ValidationformCtrl'
+
       })
   });

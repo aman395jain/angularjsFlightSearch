@@ -6,13 +6,13 @@ describe('Service: flightsData', function () {
   beforeEach(module('myAssignmentTaskApp'));
 
   // instantiate service
-  var flightsData;
-  beforeEach(inject(function (_flightsData_) {
-    flightsData = _flightsData_;
-  }));
-
-  it('should do something', function () {
-    expect(!!flightsData).toBe(true);
-  });
+//   var flightsData;
+//   beforeEach(inject(function (_flightsData_) {
+//     flightsData = _flightsData_;
+//   }));
+//
+//   it('should do something', function () {
+// //    expect(!!flightsData).toBe(true);
+//   });
 
 });

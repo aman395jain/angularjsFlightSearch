@@ -13,16 +13,10 @@ describe('Service: regpageservice', function () {
     regpageserviceObj = $injector.get('regpageservice');
   }));
 
- it('should do something', function () {
-    spyOn(localStorage,'getItem').and.returnValue(JSON.stringify([{uNameSt:"xyz",uPassSt:"xyz"}]));
-console.log("hii in test case")
-    expect(regpageserviceObj.regService("xyz","xyz")).toBe(1);
+ it('In the true scanerio', function () {
+    spyOn(localStorage,'getItem').and.returnValue(JSON.stringify([{uNameSt:'xyz',uPassSt:'xyz'}]));
+    console.log('In the true part'+localStorage.getItem().length)
+    expect(regpageserviceObj.regService('xyz','xyz')).toBeTruthy();
   });
 
-
-  /*it('should do something', function () {
-
-    spyOn(localstorage,'getItem').and.returnValue(JSON.stringify([{uNameSt:"abc",uPassSt:"abc"}]));
-    expect(!!regpageservice.regService).toBe(0);
-  });*/
 });

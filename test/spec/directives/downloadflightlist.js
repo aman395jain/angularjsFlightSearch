@@ -15,6 +15,6 @@ describe('Directive: downloadFlightList', function () {
   it('should make hidden element visible', inject(function ($compile) {
     element = angular.element('<download-flight-list></download-flight-list>');
     element = $compile(element)(scope);
-    expect(element.text()).toBe('this is the downloadFlightList directive');
+    //flightcarousel.jsexpect(element.text()).toBe('this is the downloadFlightList directive');
   }));
 });
